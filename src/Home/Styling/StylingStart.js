@@ -16,26 +16,27 @@ top:40%;
     align-items:center;
 h1{
     font-family: Red Hat Text;
-font-weight: normal;
-font-size: 80px;
+font-weight: 300;
+font-size: 130px;
 line-height: 127px;
 color: #FFFFFF;
+letter-spacing:3px;
 }
 h5{
-    margin:0 150px 0 150px;
+    margin:50px 250px 0 250px;
     font-family: Red Hat Text;
 color: #FFFFFF;
 font-weight: 200;
-font-size: 18px;
+font-size: 24px;
 line-height: 24px;
 }
 
 button {
+    width:250px;
     margin-top:100px;
     padding:15px 25px 15px 25px;
-    font-family: Red Hat Text;
-    font-size: 24px;
-    letter-spacing:1px;
+    font-size: 30px;
+    letter-spacing:3px;
     border: 1px solid #FFFFFF;
 box-sizing: border-box;
 background-color:transparent;

@@ -2,6 +2,7 @@ import React from 'react';
 import Start from './Home/Start'
 import About from './Home/About'
 import Treatments from './Home/Treatments'
+import Products from './Home/Products'
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -26,6 +27,7 @@ function App() {
       <Start />
       <About />
       <Treatments />
+      <Products />
     </div>
   );
 }
