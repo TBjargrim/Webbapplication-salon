@@ -7,6 +7,10 @@ height:99vh;
 background-image: url(${BackgroundIMG});
 background-size:cover;
 width:100%;
+@media screen and (max-width:960px) {
+    height:89vh;
+}
+
 `
 export const WrapperDiv = styled.div`
 position:relative;
@@ -21,6 +25,13 @@ font-size: 130px;
 line-height: 127px;
 color: #FFFFFF;
 letter-spacing:3px;
+@media screen and (max-width:1000px) {
+    font-size: 80px;
+    text-align:center;   
+}
+@media screen and (max-width:600px) {
+    font-size: 60px;
+}
 }
 h5{
     margin:50px 250px 0 250px;
@@ -29,6 +40,14 @@ color: #FFFFFF;
 font-weight: 200;
 font-size: 24px;
 line-height: 24px;
+@media screen and (max-width:960px) {
+    margin:50px 100px 0 100px;
+    font-size: 18px;
+    text-align:center;
+}
+@media screen and (max-width:600px) {
+    font-size: 12px;
+}
 }
 
 button {
@@ -41,10 +60,14 @@ button {
 box-sizing: border-box;
 background-color:transparent;
 color: #FFFFFF;
+text-transform:uppercase;
 cursor:pointer;
 &:hover{
 color:#1B4D4A;
 background:#FFFFFF;
+}
+@media screen and (max-width:960px) {
+    font-size: 20px;
 }
 }
 `

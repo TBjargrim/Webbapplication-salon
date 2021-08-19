@@ -1,16 +1,15 @@
 import React from 'react'
-import { DescritionDiv } from './Styling/StylingTreatments'
-import { ContainerDiv, ProductUL } from './Styling/StylingProducts'
+import { ContainerDiv, ProductUL, TopDiv } from './Styling/StylingProducts'
 import { DataProducts } from '../Data/DataProducts'
 const Products = () => {
 
 
     return (
-        <ContainerDiv>
-            <DescritionDiv>
+        <ContainerDiv id="produkter">
+            <TopDiv>
                 <h2>Produkter</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitasse arcu mi venenatis, convallis vitae fames tempus.</p>
-            </DescritionDiv>
+            </TopDiv>
             <ProductUL>
                 {DataProducts.map((i) => (
                     <li key={i.id}>

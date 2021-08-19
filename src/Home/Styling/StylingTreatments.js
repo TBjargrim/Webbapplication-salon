@@ -36,10 +36,6 @@ li{
     position:relative;
     display:flex;
     border-top:1px solid #4D7370;
-    /* justify-content:space-around; */
-    /* &:nth-child(even){
-        flex-direction:row-reverse;
-    } */
 }
 img{
     position:relative;
@@ -56,20 +52,23 @@ font-size: 32px;
 line-height: 32px;
 }
 p{
-    position:absolute;
-    top:50%;
+    position:relative;
+    top:30%;
     color: #292929;
-
+flex-wrap:wrap;
 }
 
 `
+export const Buttons = styled.div`
+display:flex;
+flex-direction:column;
+margin-left:20px;
+width:250px;
+justify-content:center;
+`
 export const BookButton = styled.button`
-    width:150px;
-
     color:#FFFFFF;
-    position:absolute;
-    right:10%;
-    top:55%;
+    position:relative;
     border: 1px solid #1B4D4A;
 box-sizing: border-box;
 background:#1B4D4A;
@@ -82,12 +81,8 @@ cursor:pointer;
 }
 `
 export const InfoButton = styled.button`
-    width:150px;
     color: #1B4D4A;
-    position:absolute;
-    right:10%;
-    top:31%;
-
+    position:relative;
     border: 1px solid #1B4D4A;
 box-sizing: border-box;
 background:transparent;

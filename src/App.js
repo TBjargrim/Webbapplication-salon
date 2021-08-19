@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Navbar from './NavbarFooter/Navbar'
+import Sidebar from './NavbarFooter/Sidebar'
 import Start from './Home/Start'
 import About from './Home/About'
 import Treatments from './Home/Treatments'
 import Products from './Home/Products'
+import Contact from './Home/Contact'
+import Footer from './NavbarFooter/Footer'
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -21,13 +25,22 @@ const GlobalStyle = createGlobalStyle`
 `
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
   return (
     <div>
       <GlobalStyle />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
       <Start />
       <About />
-      <Treatments />
+      <Treatments modalOpen={modalOpen} setModalOpen={setModalOpen} />
       <Products />
+      <Contact />
+      <Footer />
     </div>
   );
 }
