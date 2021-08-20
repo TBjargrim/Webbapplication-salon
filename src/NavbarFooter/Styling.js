@@ -194,8 +194,13 @@ line-height:30px;
 
 `
 export const Social = styled.div`
-line-height:50px;
-
+text-align:right;
+p{
+    margin:0 0 10px 0;
+max-width:400px;
+font-size:20px;
+letter-spacing:1px;
+}
 @media screen and (max-width:768px) {
     display:none;
 }
@@ -205,12 +210,24 @@ text-align:center;
 `
 export const FacebookIcon = styled(FaFacebook)`
 color:white;
-font-size:30px;
+font-size:40px;
 cursor:pointer;
+&:active{
+    transform: scale(0.98);
+}
+@media screen and(max-width:768px){
+visibility:hidden;
+}
 `
 export const InstagramIcon = styled(FaInstagram)`
 color:white;
-font-size:30px;
-margin:0 0 0 10px;
+font-size:40px;
+margin:0 20px 0 20px;
 cursor:pointer;
+&:active{
+    transform: scale(0.98);
+}
+@media screen and(max-width:768px){
+visibility:hidden;
+}
 `

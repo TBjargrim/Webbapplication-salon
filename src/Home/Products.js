@@ -18,7 +18,6 @@ const Products = () => {
                             <h5>{i.name}</h5>
                             <p>{i.desciption}</p>
                         </div>
-                        {/* <button>Mer info</button> */}
                     </li>
                 ))}
             </ProductUL>

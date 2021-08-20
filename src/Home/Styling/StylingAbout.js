@@ -24,6 +24,12 @@ p{
     opacity:90%;
     letter-spacing:1px;
 }
+span{
+    font-size:28px;
+    margin-top:20px;
+    color:#292929;
+    letter-spacing:1px;
+}
 `
 export const InfoWrapper = styled.div`
 position:relative;
@@ -48,6 +54,10 @@ line-height: 48px;
 @media screen and (max-width:1600px) {
     padding:30px 50px 35px 50px;
 }
+@media screen and (max-width:700px) {
+        /* margin:0 0 30px 450px; */
+        font-size:35px;
+}
 }
 p{
     padding:0 50px 50px 250px;
@@ -58,6 +68,12 @@ font-size: 25px;
 line-height: 35px;
 @media screen and (max-width:1600px) {
     padding:30px 50px 35px 50px;
+}
+@media screen and (max-width:700px) {
+        /* margin:0 0 30px 450px; */
+        font-size:20px;
+        line-height: 30px;
+        padding:10px 35px 35px 10px;
 }
 }
 h4{
@@ -76,7 +92,12 @@ h4{
 }
     @media screen and (max-width:700px) {
         margin:0 0 30px 450px;
+        font-size:35px;
 }
+    /* @media screen and (max-width:500px) {
+        max-width:400px;
+       
+} */
 }
 `
 export const ImageWrapper = styled.div`
@@ -99,14 +120,7 @@ visibility:hidden;
 
 `
 
-export const ContainerDivContact = styled.div`
-margin:100px 0 0 0;
-padding:0;
-height:70vh;
-position:relative;
-background: rgba(208, 213, 213, 0.5);
-padding-bottom:10px;
-`
+
 export const CitatDiv = styled.div`
 display:flex;
 justify-content:space-around;
@@ -115,19 +129,27 @@ text-align:center;
 h4{
     font-family: 'Tangerine', cursive;
     font-weight:200;
-    width:350px;
+    max-width:350px;
     margin:100px 20px 0 20px;
-    font-size:70px;
+    font-size:60px;
     letter-spacing:5px;
-    color:rgba(178, 191, 190, 0.4);
-    color:#4D7370;
+    /* color:rgba(178, 191, 190, 0.4); */
+    color:#9771A0;
     span{
         font-family: 'Tangerine', cursive;
     font-weight:200;
     font-size:50px;
+    @media screen and (max-width:900px) {
+        font-size:35px;
+        margin:50px 10px 0 10px;
+}
     }
     @media screen and (max-width:1100px) {
         font-size:50px;
       
+}
+    @media screen and (max-width:900px) {
+        font-size:35px;
+        margin:50px 10px 0 10px;
 }
 `

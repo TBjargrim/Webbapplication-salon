@@ -9,7 +9,7 @@ const About = () => {
             <HeaderDiv>
 
                 <h3>Proffessionell hudvård </h3>
-                <p>Ni hittar oss på Birkagatan 27, Vasastan</p>
+                <p>Ni hittar oss på <span>Birkagatan 27, Vasastan</span></p>
             </HeaderDiv>
             <InfoWrapper>
                 <ImageWrapper>

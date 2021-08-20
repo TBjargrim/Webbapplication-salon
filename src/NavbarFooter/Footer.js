@@ -10,6 +10,7 @@ const Footer = () => {
                 </Adress>
                 <div>Logga</div>
                 <Social>
+                    <p>Följ oss för att ta del av nyheter och erbjudanden</p>
                     <FacebookIcon
                         onClick={() => window.open("https://www.facebook.com/Feel-Great-AB-789663701096154/", "_blank")} />
                     <InstagramIcon

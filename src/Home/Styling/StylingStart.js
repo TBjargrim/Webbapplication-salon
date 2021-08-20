@@ -8,7 +8,7 @@ background-image: url(${BackgroundIMG});
 background-size:cover;
 width:100%;
 @media screen and (max-width:960px) {
-    height:89vh;
+    height:99vh;
 }
 
 `
@@ -65,6 +65,9 @@ cursor:pointer;
 &:hover{
 color:#1B4D4A;
 background:#FFFFFF;
+}
+&:active{
+    transform: scale(0.98);
 }
 @media screen and (max-width:960px) {
     font-size: 20px;
