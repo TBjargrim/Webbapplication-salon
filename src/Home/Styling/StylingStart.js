@@ -8,7 +8,7 @@ background-image: url(${BackgroundIMG});
 background-size:cover;
 width:100%;
 @media screen and (max-width:960px) {
-    height:99vh;
+    height:89vh;
 }
 
 `
@@ -27,7 +27,7 @@ color: #FFFFFF;
 letter-spacing:3px;
 @media screen and (max-width:1000px) {
     font-size: 80px;
-    text-align:center;   
+    text-align:center;
 }
 @media screen and (max-width:600px) {
     font-size: 60px;

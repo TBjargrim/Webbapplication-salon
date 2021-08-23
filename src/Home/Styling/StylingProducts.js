@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const ContainerDiv = styled.div`
 height:100vh;
+@media screen and (max-width:500px) {
+    height:115vh;
+}
 `
 export const TopDiv = styled.div`
 position:relative;
@@ -13,8 +16,12 @@ h2{
 font-weight: normal;
 font-size: 52px;
 line-height: 64px;
-@media screen and (max-width:900px) {
-    padding:120px 0 10px 0;
+@media screen and (max-width:1050px) {
+    padding:100px 0 10px 0;
+    text-align:center;
+}
+@media screen and (max-width:500px) {
+    font-size: 45px;
 }
 }
 p{
@@ -26,6 +33,7 @@ font-size: 20px;
 line-height: 35px;
 }
 @media screen and (max-width:1050px) {
+    text-align:center;
     left:7%;
     width:650px;
 }
@@ -49,6 +57,13 @@ border-bottom:1px solid #9771A0;
 li{
     cursor:pointer;
     margin:25px 25px 25px 25px;
+    @media screen and (max-width:800px) {
+        margin:0 25px 25px 25px;
+}
+    @media screen and (max-width:500px) {
+        margin:5px 25px 0 0;
+        /* justify-content:space-around; */
+}
 }
 img{
     width:250px;
@@ -57,6 +72,9 @@ img{
 }
     @media screen and (max-width:1300px) {
         width:150px;
+}
+    @media screen and (max-width:500px) {
+        width:90px;
 }
 }
 h5{
@@ -68,6 +86,9 @@ font-size: 24px;
 line-height: 32px;
 text-align:center;
 color: #1B4D4A;
+@media screen and (max-width:500px) {
+    font-size: 14px;
+}
 }
 @media screen and (max-width:1700px) {
     margin:0 50px 0 50px;
@@ -77,4 +98,9 @@ color: #1B4D4A;
     margin:0 50px 0 50px;
     max-width:650px;
 }
+@media screen and (max-width:1200px) {
+padding:0;
+}
+
+
 `

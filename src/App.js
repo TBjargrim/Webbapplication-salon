@@ -13,9 +13,7 @@ const GlobalStyle = createGlobalStyle`
 * {
       margin: 0;
       padding:0;
-      font-family: Red Hat Text;;
-      /* font-family: 'Work Sans', sans-serif; */
-      /* background-color:black; */
+      font-family:sans-serif;
 
 }
   *, *::after, *::before {

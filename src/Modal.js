@@ -40,23 +40,40 @@ const CloseButton = styled(GrClose)`
 position:absolute;
 top:7%;
 right:7%;
+width:100px;
 font-size:20px;
 cursor:pointer;
 `
+const Content = styled.div`
+border:solid 1px blue;
+margin:100px 0 0 0;
+min-height: 100%;
+  width:80%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+`
+export const ModalH2 = styled.h2`
+font-size:34px;
+margin:40px 0 0 0;
+color:#1B4D4A;
+`
 
 const Modal = ({ modalOpen, children, onClose }) => {
-    if (!modalOpen) return null
+  if (!modalOpen) return null
 
-    return (
-        <Background>
-            <ModalBackdrop onClick={onClose} />
-            <ModalBox>
-                <CloseButton onClick={onClose} />
-                {/* Get access to the content through the children prop. To make the modal global */}
-                {children}
-            </ModalBox>
-        </Background>
-    )
+  return (
+    <Background>
+      <ModalBackdrop onClick={onClose} />
+      <ModalBox>
+        <CloseButton onClick={onClose} />
+        <Content>
+          {children}
+        </Content>
+      </ModalBox>
+    </Background>
+  )
 }
 
 export default Modal

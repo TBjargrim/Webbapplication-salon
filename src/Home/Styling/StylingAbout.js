@@ -7,28 +7,48 @@ height:100vh;
 display:flex;
 flex-direction:column;
 align-items:center;
+@media screen and (max-width:500px) {
+    height:113vh;
+}
 `
 export const HeaderDiv = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
 h3{
-    margin-top:150px;
+    margin:150px 0 30px 0;
     font-size:56px;
     color:  #4D7370;
+    @media screen and (max-width:500px) {
+        margin-top:100px;
+    font-size:35px;
+}
 }
 p{
-    font-size:24px;
-    margin-top:20px;
+ 
+    font-size:20px;
     color:#292929;
     opacity:90%;
     letter-spacing:1px;
+    text-align:center;
+    @media screen and (max-width:500px) {
+        margin-top:10px;
+    font-size:17px;
+}
 }
 span{
+    margin-top:10px;
     font-size:28px;
-    margin-top:20px;
-    color:#292929;
+    color:#56315B;
     letter-spacing:1px;
+    @media screen and (max-width:500px) {
+        margin-top:10px;
+    font-size:25px;
+}
+}
+@media screen and (max-width:500px) {
+text-align:center;
+padding:20px;
 }
 `
 export const InfoWrapper = styled.div`
@@ -55,8 +75,13 @@ line-height: 48px;
     padding:30px 50px 35px 50px;
 }
 @media screen and (max-width:700px) {
-        /* margin:0 0 30px 450px; */
         font-size:35px;
+}
+@media screen and (max-width:500px) {
+    margin:25px 0 0 0;
+    font-size: 30px;
+text-align:center;
+padding:18px;
 }
 }
 p{
@@ -74,6 +99,10 @@ line-height: 35px;
         font-size:20px;
         line-height: 30px;
         padding:10px 35px 35px 10px;
+}
+@media screen and (max-width:500px) {
+text-align:center;
+padding:15px;
 }
 }
 h4{
@@ -94,10 +123,12 @@ h4{
         margin:0 0 30px 450px;
         font-size:35px;
 }
-    /* @media screen and (max-width:500px) {
-        max-width:400px;
-       
-} */
+    @media screen and (max-width:500px) {
+        margin:0 0 30px 230px;
+}
+}
+@media screen and (max-width:500px) {
+        margin:0;
 }
 `
 export const ImageWrapper = styled.div`
@@ -143,6 +174,11 @@ h4{
         font-size:35px;
         margin:50px 10px 0 10px;
 }
+    @media screen and (max-width:500px) {
+        font-size:20px;
+        margin:0 10px 0 10px;
+        letter-spacing:0;
+}
     }
     @media screen and (max-width:1100px) {
         font-size:50px;
@@ -151,5 +187,11 @@ h4{
     @media screen and (max-width:900px) {
         font-size:35px;
         margin:50px 10px 0 10px;
+}
+    @media screen and (max-width:500px) {
+        font-size:25px;
+        margin:5px 10px 0 10px;
+        justify-content:center;
+        
 }
 `

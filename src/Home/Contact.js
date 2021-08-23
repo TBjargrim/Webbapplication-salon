@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerDivContact, Wrapper, InfoWrapper, InfoDiv, LocationIcon, MailIcon, PhoneIcon } from './Styling/StylingContact'
+import { ContainerDivContact, Wrapper, InfoWrapper, InfoDiv, Adressp, LocationIcon, MailIcon, PhoneIcon } from './Styling/StylingContact'
 const Contact = () => {
 
     const sendEmail = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
                 <h2>Kontakta oss! </h2>
                 <InfoWrapper>
                     <InfoDiv>
-                        <LocationIcon /><p><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</p>
+                        <LocationIcon /><Adressp><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</Adressp>
                     </InfoDiv>
                     <InfoDiv onClick={sendEmail}>
                         <MailIcon /><p>fridaby@gmail.com</p>

@@ -3,6 +3,7 @@ import Modal from '../Modal';
 // import Treatment from './Treatment';
 import { DataTreatments } from '../Data/DataTreat'
 import { Buttons, ContainerDiv, DescritionDiv, AllTreatmentsUL, BookButton, InfoButton } from './Styling/StylingTreatments'
+import { ModalH2 } from '../Modal'
 const Treatments = ({ modalOpen, setModalOpen }) => {
 
     const [selected, setSelected] = useState([])
@@ -15,7 +16,7 @@ const Treatments = ({ modalOpen, setModalOpen }) => {
         <ContainerDiv id="behandlingar">
             <DescritionDiv>
                 <h2>Behandlingar</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitasse arcu mi venenatis, convallis vitae fames tempus.</p>
+                <p>Erbjuder många olika exlusiva behandlingar för att på ett naturligt sätt framhäva hälsosamma effekter.</p>
             </DescritionDiv>
             <AllTreatmentsUL>
                 {DataTreatments.map((i) => (
@@ -41,13 +42,18 @@ const Treatments = ({ modalOpen, setModalOpen }) => {
 
                 ))}
                 <Modal modalOpen={modalOpen} onClose={() => setModalOpen(false)} selected={selected}>
-                    <h2>{selected.name}</h2>
+                    <ModalH2>{selected.name}</ModalH2>
                     <p>{selected.detailedDescription}</p>
                     <ul>
                         <li>
-
+                            {selected.list}
                         </li>
                     </ul>
+                    <p>{selected.warning} </p>
+                    <BookButton
+                        onClick={() => window.open("https://www.bokadirekt.se/places/feel-great-25951", "_blank")}
+                    >Boka</BookButton>
+
                 </Modal>
             </AllTreatmentsUL>
 

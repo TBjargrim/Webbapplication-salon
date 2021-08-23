@@ -69,12 +69,19 @@ list-style:none;
 `
 export const NavItem = styled.li`
 height:80px;
-font-size:22px;
+font-size:20px;
 color:#FFFFFF;
 letter-spacing:2px;
 font-weight:200;
 margin-left:25px;
+text-transform:uppercase;
 cursor:pointer;
+&:hover{
+color:#607A7A;
+}
+&:active{
+    transform: scale(0.98);
+}
 `
 export const NavButton = styled.nav`
 display:flex;
@@ -115,7 +122,7 @@ position:fixed;
 z-index:999;
 width:100%;
 height:100%;
-background:#000;
+background:#4D7370;
 display:grid;
 align-items:center;
 top:0;
@@ -164,6 +171,19 @@ grid-template-columns:1fr;
 grid-template-rows:repeat(6,80px);
 text-align:center;
 
+letter-spacing:1.5px;
+text-transform:uppercase;
+font-size:24px;
+font-weight:200;
+cursor:pointer;
+a{
+    &:hover{
+color:#D0D5D5;
+}
+&:active{
+    transform: scale(0.98);
+}
+}
 @media screen and(max-width:768px){
 grid-template-rows:repeat(6,60px);
 }
@@ -212,6 +232,9 @@ export const FacebookIcon = styled(FaFacebook)`
 color:white;
 font-size:40px;
 cursor:pointer;
+&:hover{
+color:#607A7A;
+}
 &:active{
     transform: scale(0.98);
 }
@@ -224,6 +247,9 @@ color:white;
 font-size:40px;
 margin:0 20px 0 20px;
 cursor:pointer;
+&:hover{
+color:#607A7A;
+}
 &:active{
     transform: scale(0.98);
 }

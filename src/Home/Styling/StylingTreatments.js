@@ -19,15 +19,29 @@ line-height: 64px;
 @media screen and (max-width:1050px) {
     padding:120px 0 10px 0;
     margin-top:150px;
+    text-align:center;
+}
+@media screen and (max-width:500px) {
+    padding:120px 0 10px 0;
+    margin-top:200px;
+    font-size: 45px;
+  
 }
 }
 p{
     color:#292929;
-    font-family: Red Hat Text;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 35px;
+@media screen and (max-width:1050px) {
+    text-align:center;
+}
+@media screen and (max-width:500px) {
+    font-size: 18px;
+    line-height: 30px;
+    margin:0 10px 0 0;
+}
 }
 @media screen and (max-width:1050px) {
     left:7%;
@@ -59,7 +73,9 @@ li{
 }
     @media screen and (max-width:500px) {
           flex-direction:column;
+          align-items:center;
         margin:2px;
+        min-height:350px;
 }
 }
 li:last-child{
@@ -87,15 +103,19 @@ line-height: 32px;
     width:350px;
     top:2%;
 }
+@media screen and (max-width:900px) {
+text-align:center;
+font-size: 24px;
+top:7%;
+}
 }
 p{
-    position:relative;
-    top:17%;
+margin:10px 0 0 0;
     color: #292929;
 flex-wrap:wrap;
 }
 @media screen and (max-width:500px) {
-  
+    text-align:center;
 }
 `
 export const Buttons = styled.div`
@@ -106,7 +126,12 @@ width:250px;
 justify-content:center;
 @media screen and (max-width:900px) {
     height:100px;
-    
+}
+@media screen and (max-width:900px) {
+    width:200px;
+}
+@media screen and (max-width:500px) {
+    margin:20px 20px 0 20px;
 }
 `
 export const BookButton = styled.button`
@@ -128,7 +153,10 @@ cursor:pointer;
 }
 @media screen and (max-width:900px) {
     margin:20px 0 0 0;
-    
+}
+@media screen and (max-width:500px) {
+    padding:7px;
+font-size:15px;
 }
 `
 export const InfoButton = styled.button`
@@ -149,6 +177,9 @@ cursor:pointer;
 }
 @media screen and (max-width:900px) {
     margin:5px 0 0 0;
-    
+}
+@media screen and (max-width:500px) {
+    padding:7px;
+font-size:15px;
 }
 `

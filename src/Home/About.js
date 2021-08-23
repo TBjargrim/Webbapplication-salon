@@ -9,15 +9,15 @@ const About = () => {
             <HeaderDiv>
 
                 <h3>Proffessionell hudvård </h3>
-                <p>Ni hittar oss på <span>Birkagatan 27, Vasastan</span></p>
+                <p>Ni hittar oss på <br /><span>Birkagatan 27, Vasastan</span></p>
             </HeaderDiv>
             <InfoWrapper>
                 <ImageWrapper>
                     <img src={Salon} alt='Salon' />
                 </ImageWrapper>
                 <h2>Om oss</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitasse arcu mi venenatis, convallis vitae fames tempus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitasse arcu mi venenatis, convallis vitae fames tempus.</p>
+                <p>Med många års erfarenhet som hudterapeut och läkare jobbar jag idag i mysiga lokaler i härliga Vasastan. Skäm bort dig själv med klassika behandlingar eller de senaste på marknaden.</p>
+                <p>Välkommen!</p>
                 <h4>/ Farida </h4>
             </InfoWrapper>
             <CitatDiv>

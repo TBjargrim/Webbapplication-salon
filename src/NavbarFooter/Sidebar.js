@@ -65,6 +65,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         Kontakt
                     </Link>
                 </SidebarMenu>
+
                 <SocialSidebar>
                     <FacebookIcon
                         onClick={() => window.open("https://www.facebook.com/Feel-Great-AB-789663701096154/", "_blank")} />
