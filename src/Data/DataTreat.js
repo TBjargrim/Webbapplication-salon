@@ -1,12 +1,17 @@
 import BackgroundIMG from '../Images/Background.jpg'
+import facial from '../Images/facial.jpg'
+import Dermapen from '../Images/dermapen.jpg'
+import Icepeel from '../Images/icepeel.jpg'
+import Freezepen from '../Images/freezepen.jpg'
 
 export const DataTreatments = [
     {
         name: 'Ansiktsbehandling',
         desciption: 'Vi erbjuder olika lyxiga ansiktsbehandlingar som vi kan skräddarsy för just dina behov. Från klassiska till det nyaste på marknaden.',
-        image: BackgroundIMG,
+        // image: BackgroundIMG,
         id: 1,
-
+        detailedDescription: '',
+        image: facial,
     },
     {
         name: 'Fransar och Bryn / Lashlift',
@@ -38,20 +43,20 @@ export const DataTreatments = [
     {
         name: 'ICE Peel',
         desciption: '',
-        image: BackgroundIMG,
+        image: Icepeel,
         id: 6
     },
     {
         name: 'Dermapen 4',
         desciption: 'En avancerad behandlingsteknik för hudföryngring.',
-        image: BackgroundIMG,
+        image: Dermapen,
         id: 7,
         detailedDescription: 'Dermapen 4 är en avancerad behandlingsteknik och det senaste genombrottet inom hudföryngring. Dermapen rekommenderas för behandling av åldrad och spänstfattig hud, fina linjer och rynkor, hudföryngring, stora porer, milier och pormaskar, pigmenteringar, ärr och bristningar.'
     },
     {
         name: 'Freezepen Cryobehandling',
         desciption: 'En naturlig behandling för att effektivt eliminera olika hudfäckar.',
-        image: BackgroundIMG,
+        image: Freezepen,
         id: 8,
         detailedDescription: 'Cryobehandling är en effektiv och naturlig behandling som effektivt eliminerar olika hudfläckar som t.e.x. vårtor på bara några sekunder med hjälp av kyla.Cryobehandling en noggrann behandling som arbetar med dikväveoxid (lustgas) för att frysa pigment och hudfläckar på 1-20 mm. Med Freezpen är risken för bieffekter minimal och endast 1-3 behandlingar brukar krävas för önskat resultat. Freezpen används bla för att behandla följande indikationer: ',
         list: [
@@ -71,4 +76,10 @@ export const DataTreatments = [
     },
 
 
+    // Om EMSlim sculpt
+    // EmSlim Sculpt levererar elektromagnetiska våg (HI-EMT) som expanderar och drar samman musklerna som med träning där man omformar inre strukturen av muskeln som sedan ökar tillväxten och därefter producerar nya kedjor av muskelfibrer.
+    // EMSlim bygger muskler så bränner den även fett.
+    // - Huduppstramning - Fettreducering - Muskeluppbyggnad
+    // Behandlings områden - Rumpa, Mage, Ben, Biceps/Triceps
+    // Just nu kan du boka en gratis konsultation.
 ]

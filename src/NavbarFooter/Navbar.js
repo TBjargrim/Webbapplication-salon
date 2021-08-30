@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import Logo from '../Images/Logo.jpg';
 
 import {
     StyledNav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
@@ -30,7 +31,7 @@ const Navbar = ({ toggle }) => {
                     smooth={true}
                     offset={0}
                     duration={500}>
-                    Logga
+
                 </Link>
                 <MobileIcon onClick={toggle}>
                     <BurgerMenyIcon />

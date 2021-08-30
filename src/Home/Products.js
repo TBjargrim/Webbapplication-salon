@@ -8,12 +8,14 @@ const Products = () => {
         <ContainerDiv id="produkter">
             <TopDiv>
                 <h2>Produkter</h2>
-                <p>Vi använder oss av produkter som vi vet är de bästa på marknaden. </p>
+                <p>Vi använder oss av produkter som vi vet är några av de bästa på marknaden. </p>
             </TopDiv>
             <ProductUL>
                 {DataProducts.map((i) => (
                     <li key={i.id}>
-                        <img src={i.image} alt='Treatments' />
+                        <div>
+                            <img src={i.image} alt='Treatments' />
+                        </div>
                         <div>
                             <h5>{i.name}</h5>
                             {/* <p>{i.desciption}</p> */}

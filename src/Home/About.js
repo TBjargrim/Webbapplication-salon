@@ -8,16 +8,16 @@ const About = () => {
         <ContainerDiv>
             <HeaderDiv>
 
-                <h3>Proffessionell hudvård </h3>
+                {/* <h3>Om oss:</h3> */}
                 <p>Ni hittar oss på <br /><span>Birkagatan 27, Vasastan</span></p>
             </HeaderDiv>
             <InfoWrapper>
                 <ImageWrapper>
                     <img src={Salon} alt='Salon' />
                 </ImageWrapper>
-                <h2>Om oss</h2>
-                <p>Med många års erfarenhet som hudterapeut och läkare jobbar jag idag i mysiga lokaler i härliga Vasastan. Skäm bort dig själv med klassika behandlingar eller de senaste på marknaden.</p>
-                <p>Välkommen!</p>
+                <h2>Kort om mig: </h2>
+                <p>Med många års erfarenhet som hudterapeut och läkare både i Sverige och utomlands, jobbar jag idag i mysiga lokaler i härliga Vasastan. <br /><br />Med vidareutbildnigar inom medicinsk hudvård och estetiska behandlingar, diplomerad och certifierad så kan du lita på att jag tar hand om din hud på bästa sätt. </p>
+                <p>Varmt välkommen!!</p>
                 <h4>/ Farida </h4>
             </InfoWrapper>
             <CitatDiv>

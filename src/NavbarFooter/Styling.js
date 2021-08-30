@@ -7,12 +7,10 @@ import { FaTimes } from 'react-icons/fa';
 
 export const StyledNav = styled.nav`
  background-color:${({ scrollNav }) => (scrollNav ? '#B2BFBE ' : 'transparent')};
-/* height:80px; */
 width:100%;
 display:flex;
 justify-content:center;
 align-items:center;
-/* font-size:1rem; */
 position:fixed;
 top:0;
 z-index:10;
@@ -39,7 +37,7 @@ export const NavLogo = styled.button`
 color:#fff;
 justify-self:flex-start;
 cursor:pointer;
-font-size:1.5rem;
+/* font-size:1.5rem; */
 display:flex;
 align-items:center;
 margin-left:24px;
@@ -54,7 +52,7 @@ display:none;
     top:0;
     right:0;
     transform:translate(-100%,60%);
-    font-size:1.8rem;
+    font-size:32px;
     cursor:pointer;
 }
 `
@@ -69,7 +67,7 @@ list-style:none;
 `
 export const NavItem = styled.li`
 height:80px;
-font-size:20px;
+font-size:24px;
 color:#FFFFFF;
 letter-spacing:2px;
 font-weight:200;
@@ -151,7 +149,7 @@ export const SidebarLink = styled.button`
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:1.5rem;
+font-size:24px;
 text-decoration:none;
 list-style:none;
 transition:0.2s ease-in-out;
@@ -206,7 +204,8 @@ height:13vh;
 p{
     letter-spacing:1px;
     color:#FFFFFF;
-    font-size:20px;
+    font-size:16px;
+font-weight:200;
 }
 `
 export const Adress = styled.div`
@@ -218,7 +217,8 @@ text-align:right;
 p{
     margin:0 0 10px 0;
 max-width:400px;
-font-size:20px;
+font-size:16px;
+font-weight:200;
 letter-spacing:1px;
 }
 @media screen and (max-width:768px) {

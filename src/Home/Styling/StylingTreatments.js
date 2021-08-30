@@ -14,7 +14,7 @@ h2{
     color: #1B4D4A;
     font-style: normal;
 font-weight: normal;
-font-size: 52px;
+font-size: 56px;
 line-height: 64px;
 @media screen and (max-width:1050px) {
     padding:120px 0 10px 0;
@@ -24,7 +24,7 @@ line-height: 64px;
 @media screen and (max-width:500px) {
     padding:120px 0 10px 0;
     margin-top:200px;
-    font-size: 45px;
+    font-size: 40px;
   
 }
 }
@@ -32,13 +32,13 @@ p{
     color:#292929;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 24px;
 line-height: 35px;
 @media screen and (max-width:1050px) {
     text-align:center;
 }
 @media screen and (max-width:500px) {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     margin:0 10px 0 0;
 }
@@ -142,7 +142,7 @@ margin:5px 0 0 0;
 box-sizing: border-box;
 background:#1B4D4A;
 padding:10px;
-font-size:18px;
+font-size:16px;
 cursor:pointer;
 &:hover{
     color: #1B4D4A;
@@ -156,7 +156,7 @@ cursor:pointer;
 }
 @media screen and (max-width:500px) {
     padding:7px;
-font-size:15px;
+font-size:12px;
 }
 `
 export const InfoButton = styled.button`
@@ -166,7 +166,7 @@ export const InfoButton = styled.button`
 box-sizing: border-box;
 background:transparent;
 padding:10px;
-font-size:18px;
+font-size:16px;
 cursor:pointer;
 &:hover{
     color:#FFFFFF;
@@ -180,6 +180,6 @@ cursor:pointer;
 }
 @media screen and (max-width:500px) {
     padding:7px;
-font-size:15px;
+font-size:12px;
 }
 `

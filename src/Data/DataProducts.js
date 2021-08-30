@@ -1,33 +1,38 @@
 import Flower from '../Images/Flower.jpg'
+import Excuviance from '../Images/excuviance2.jpg'
+import DP from '../Images/dpDerm.jpg'
+import Tebeskin from '../Images/tebeskin.png'
+import Nannic from '../Images/nannic.jpg'
+import IMAGE from '../Images/imagescincare.jpg'
 export const DataProducts = [
     {
-        name: 'Excuviance',
+        name: 'Exuviance',
         description: '',
-        image: Flower,
+        image: Excuviance,
         id: 1
     },
     {
         name: 'Dermaceuticals',
         description: '',
-        image: Flower,
+        image: DP,
         id: 2
     },
     {
         name: 'Tebeskin',
         description: '',
-        image: Flower,
+        image: Tebeskin,
         id: 3
     },
     {
         name: 'Nannic',
         description: '',
-        image: Flower,
+        image: Nannic,
         id: 4
     },
     {
         name: 'Image',
         description: '',
-        image: Flower,
+        image: IMAGE,
         id: 5
     },
 

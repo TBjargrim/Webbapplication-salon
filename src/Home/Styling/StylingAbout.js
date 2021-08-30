@@ -17,33 +17,33 @@ flex-direction:column;
 align-items:center;
 h3{
     margin:150px 0 30px 0;
-    font-size:56px;
+    font-size:48px;
     color:  #4D7370;
     @media screen and (max-width:500px) {
         margin-top:100px;
-    font-size:35px;
+    font-size:32px;
 }
 }
 p{
- 
-    font-size:20px;
+    margin:150px 0 30px 0;
+    font-size:24px;
     color:#292929;
     opacity:90%;
     letter-spacing:1px;
     text-align:center;
     @media screen and (max-width:500px) {
-        margin-top:10px;
-    font-size:17px;
+        margin-top:100px;
+    font-size:16px;
 }
 }
 span{
     margin-top:10px;
-    font-size:28px;
+    font-size:32px;
     color:#56315B;
     letter-spacing:1px;
     @media screen and (max-width:500px) {
         margin-top:10px;
-    font-size:25px;
+    font-size:24px;
 }
 }
 @media screen and (max-width:500px) {
@@ -75,11 +75,11 @@ line-height: 48px;
     padding:30px 50px 35px 50px;
 }
 @media screen and (max-width:700px) {
-        font-size:35px;
+        font-size:32px;
 }
 @media screen and (max-width:500px) {
     margin:25px 0 0 0;
-    font-size: 30px;
+    font-size: 32px;
 text-align:center;
 padding:18px;
 }
@@ -89,14 +89,14 @@ p{
     color: #1B4D4A;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 24px;
 line-height: 35px;
 @media screen and (max-width:1600px) {
     padding:30px 50px 35px 50px;
 }
 @media screen and (max-width:700px) {
         /* margin:0 0 30px 450px; */
-        font-size:20px;
+        font-size:16px;
         line-height: 30px;
         padding:10px 35px 35px 10px;
 }
@@ -108,7 +108,7 @@ padding:15px;
 h4{
     margin:0 0 30px 750px;
     font-family: 'Tangerine', cursive;
-    font-size:75px;
+    font-size:72px;
     font-weight:200;
     color:#ffffff;
     opacity:70%;
@@ -121,7 +121,7 @@ h4{
 }
     @media screen and (max-width:700px) {
         margin:0 0 30px 450px;
-        font-size:35px;
+        font-size:32px;
 }
     @media screen and (max-width:500px) {
         margin:0 0 30px 230px;
@@ -162,34 +162,34 @@ h4{
     font-weight:200;
     max-width:350px;
     margin:100px 20px 0 20px;
-    font-size:60px;
+    font-size:64px;
     letter-spacing:5px;
     /* color:rgba(178, 191, 190, 0.4); */
     color:#9771A0;
     span{
         font-family: 'Tangerine', cursive;
     font-weight:200;
-    font-size:50px;
+    font-size:48px;
     @media screen and (max-width:900px) {
-        font-size:35px;
+        font-size:32px;
         margin:50px 10px 0 10px;
 }
     @media screen and (max-width:500px) {
-        font-size:20px;
+        font-size:16px;
         margin:0 10px 0 10px;
         letter-spacing:0;
 }
     }
     @media screen and (max-width:1100px) {
-        font-size:50px;
+        font-size:48px;
       
 }
     @media screen and (max-width:900px) {
-        font-size:35px;
+        font-size:32px;
         margin:50px 10px 0 10px;
 }
     @media screen and (max-width:500px) {
-        font-size:25px;
+        font-size:24px;
         margin:5px 10px 0 10px;
         justify-content:center;
         

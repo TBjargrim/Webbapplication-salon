@@ -23,27 +23,27 @@ position:relative;
 h2{
     margin:50px 0 0 0;
     font-family: 'Tangerine', cursive;
-    font-size:90px;
+    font-size:88px;
     color:#ffffff;
    font-weight:200;
    opacity:70%;
     letter-spacing:4px;
     text-align:center;
     @media screen and (max-width:500px) {
-        font-size:50px;
+        font-size:48px;
 }
 }
 h4{
     margin:50px 0 50px 0;
     font-family: 'Tangerine', cursive;
-    font-size:95px;
+    font-size:96px;
     color:#ffffff;
    font-weight:200;
    opacity:70%;
     letter-spacing:4px;
     text-align:center;
     @media screen and (max-width:500px) {
-        font-size:60px;
+        font-size:56px;
 }
 }
 @media screen and (max-width:500px) {
@@ -79,10 +79,10 @@ export const InfoDiv = styled.div`
         margin:20px 0 0 0;
         color: #1B4D4A;
         letter-spacing:0.5px;
-        font-size:21px;
+        font-size:24px;
         @media screen and (max-width:500px) {
             /* display:none; */
-            font-size:10px;
+            font-size:12px;
 }
     }
     @media screen and (max-width:500px) {
@@ -93,7 +93,7 @@ export const Adressp = styled.p`
         margin:20px 0 0 0;
         color: #1B4D4A;
         letter-spacing:0.5px;
-        font-size:21px;
+        font-size:24px;
         @media screen and (max-width:500px) {
 }
 `
@@ -101,20 +101,20 @@ export const LocationIcon = styled(GoLocation)`
 color:#56315B;
 font-size:40px;
 @media screen and (max-width:500px) {
-            font-size:25px;
+            font-size:24px;
 }
 `
 export const MailIcon = styled(GoMail)`
 color:#56315B;
 font-size:40px;
 @media screen and (max-width:500px) {
-            font-size:25px;
+            font-size:24px;
 }
 `
 export const PhoneIcon = styled(AiOutlinePhone)`
 color:#56315B;
 font-size:40px;
 @media screen and (max-width:500px) {
-            font-size:25px;
+            font-size:24px;
 }
 `

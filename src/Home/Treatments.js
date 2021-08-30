@@ -16,7 +16,7 @@ const Treatments = ({ modalOpen, setModalOpen }) => {
         <ContainerDiv id="behandlingar">
             <DescritionDiv>
                 <h2>Behandlingar</h2>
-                <p>Erbjuder många olika exlusiva behandlingar för att på ett naturligt sätt framhäva hälsosamma effekter.</p>
+                <p>Erbjuder ett stort utbud av professionella behandlingar. Från de mest klassiska till mer avancerade behandlingar.</p>
             </DescritionDiv>
             <AllTreatmentsUL>
                 {DataTreatments.map((i) => (

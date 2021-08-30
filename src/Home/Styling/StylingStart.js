@@ -7,7 +7,7 @@ height:99vh;
 background-image: url(${BackgroundIMG});
 background-size:cover;
 width:100%;
-@media screen and (max-width:960px) {
+@media screen and (max-width:500px) {
     height:89vh;
 }
 
@@ -30,7 +30,7 @@ letter-spacing:3px;
     text-align:center;
 }
 @media screen and (max-width:600px) {
-    font-size: 60px;
+    font-size: 30px;
 }
 }
 h5{
@@ -47,6 +47,7 @@ line-height: 24px;
 }
 @media screen and (max-width:600px) {
     font-size: 12px;
+    margin:30px 25px 0 25px;
 }
 }
 
@@ -72,7 +73,16 @@ background:#FFFFFF;
 @media screen and (max-width:960px) {
     font-size: 20px;
 }
+@media screen and (max-width:500px) {
+    font-size: 15px;
+    width:220px;
+    margin-top:70px;
 }
+}
+@media screen and (max-width:500px) {
+    top:30%;
+}
+
 `
 export const ArrowDown = styled(BsArrowDown)`
 position:absolute;
