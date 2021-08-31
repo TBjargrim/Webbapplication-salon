@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
                     smooth={true}
                     offset={0}
                     duration={500}>
-
+                    {/* <img src={Logo} alt='Logo' /> */}
                 </Link>
                 <MobileIcon onClick={toggle}>
                     <BurgerMenyIcon />

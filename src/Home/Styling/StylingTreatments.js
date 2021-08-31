@@ -110,9 +110,11 @@ top:7%;
 }
 }
 p{
-margin:10px 0 0 0;
+margin:25px 0 0 0;
     color: #292929;
+    width:350px;
 flex-wrap:wrap;
+font-size: 16px;
 }
 @media screen and (max-width:500px) {
     text-align:center;
@@ -176,7 +178,7 @@ cursor:pointer;
     transform: scale(0.98);
 }
 @media screen and (max-width:900px) {
-    margin:5px 0 0 0;
+    margin:35px 0 0 0;
 }
 @media screen and (max-width:500px) {
     padding:7px;

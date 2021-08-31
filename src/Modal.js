@@ -12,6 +12,7 @@ const Background = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 100;
 `
 const ModalBackdrop = styled.div`
   position: fixed;
@@ -32,7 +33,7 @@ const ModalBox = styled.div`
   width:60%;
   background-color: white;
   overflow-y: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   z-index: 1999;
   padding: 40px;
 `
@@ -45,19 +46,38 @@ font-size:20px;
 cursor:pointer;
 `
 const Content = styled.div`
-border:solid 1px blue;
-margin:100px 0 0 0;
-min-height: 100%;
-  width:80%;
+position:absolute;
+top:50%;
+right:50%;
+transform: translate(50%,-50%);
+text-align:center;
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content:center;
 
 `
+export const ModalUL = styled.ul`
+ margin:0;
+ padding:0;
+li{
+  margin:0;
+ padding:0;
+  border:none;
+}
+`
 export const ModalH2 = styled.h2`
-font-size:34px;
+font-size:32px;
 margin:40px 0 0 0;
 color:#1B4D4A;
+`
+export const ModalP = styled.p`
+min-width:550px;
+min-height:450px;
+font-size:24px;
+
+line-height:22px;
+border:1px solid blue;
 `
 
 const Modal = ({ modalOpen, children, onClose }) => {

@@ -33,6 +33,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 35px;
+@media screen and (max-width:1050px) {
+    text-align:center;
+}
 }
 @media screen and (max-width:1050px) {
     text-align:center;

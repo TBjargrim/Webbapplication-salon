@@ -1,8 +1,8 @@
 import Flower from '../Images/Flower.jpg'
 import Excuviance from '../Images/excuviance2.jpg'
 import DP from '../Images/dpDerm.jpg'
-import Tebeskin from '../Images/tebeskin.png'
-import Nannic from '../Images/nannic.jpg'
+import Tebeskin from '../Images/Tebeskin.jpg'
+import Nannic from '../Images/Nannic.jpg'
 import IMAGE from '../Images/imagescincare.jpg'
 export const DataProducts = [
     {

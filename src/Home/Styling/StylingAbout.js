@@ -3,12 +3,15 @@ import styled from 'styled-components';
 export const ContainerDiv = styled.div`
 margin:0;
 padding:0;
-height:100vh;
+height:80vh;
 display:flex;
 flex-direction:column;
 align-items:center;
+@media screen and (max-width:800px) {
+    /* height:60vh; */
+}
 @media screen and (max-width:500px) {
-    height:113vh;
+    /* height:60vh; */
 }
 `
 export const HeaderDiv = styled.div`
@@ -32,7 +35,7 @@ p{
     letter-spacing:1px;
     text-align:center;
     @media screen and (max-width:500px) {
-        margin-top:100px;
+        /* margin:100px 30px 0 30px; */
     font-size:16px;
 }
 }
@@ -53,7 +56,7 @@ padding:20px;
 `
 export const InfoWrapper = styled.div`
 position:relative;
-margin:80px 0 0 0;
+margin:150px 0 0 0;
 background-color:rgba(178, 191, 190, 0.8);
 display:flex;
 flex-direction:column;
@@ -64,12 +67,12 @@ outline: 1px solid #ffffff;
 
 h2{
     padding:30px 50px 35px 250px;
-    margin:25px 0 15px 0;
+    margin:45px 0 15px 0;
     color: #1B4D4A;
 font-style: normal;
 font-weight: 200;
 letter-spacing:1px;
-font-size: 40px;
+font-size: 32px;
 line-height: 48px;
 @media screen and (max-width:1600px) {
     padding:30px 50px 35px 50px;
@@ -89,7 +92,7 @@ p{
     color: #1B4D4A;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: 16px;
 line-height: 35px;
 @media screen and (max-width:1600px) {
     padding:30px 50px 35px 50px;

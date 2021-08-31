@@ -71,7 +71,7 @@ font-size:24px;
 color:#FFFFFF;
 letter-spacing:2px;
 font-weight:200;
-margin-left:25px;
+margin-left:30px;
 text-transform:uppercase;
 cursor:pointer;
 &:hover{

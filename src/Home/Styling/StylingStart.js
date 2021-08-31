@@ -25,7 +25,8 @@ font-size: 130px;
 line-height: 127px;
 color: #FFFFFF;
 letter-spacing:3px;
-@media screen and (max-width:1000px) {
+text-align:center;
+@media screen and (max-width:1100px) {
     font-size: 80px;
     text-align:center;
 }
@@ -35,15 +36,16 @@ letter-spacing:3px;
 }
 h5{
     margin:50px 250px 0 250px;
-    font-family: Red Hat Text;
 color: #FFFFFF;
-font-weight: 200;
+font-weight:100;
+letter-spacing:1px;
 font-size: 24px;
-line-height: 24px;
+line-height: 30px;
+text-align:center;
 @media screen and (max-width:960px) {
     margin:50px 100px 0 100px;
     font-size: 18px;
-    text-align:center;
+    
 }
 @media screen and (max-width:600px) {
     font-size: 12px;

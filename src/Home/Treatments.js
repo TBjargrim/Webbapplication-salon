@@ -3,7 +3,7 @@ import Modal from '../Modal';
 // import Treatment from './Treatment';
 import { DataTreatments } from '../Data/DataTreat'
 import { Buttons, ContainerDiv, DescritionDiv, AllTreatmentsUL, BookButton, InfoButton } from './Styling/StylingTreatments'
-import { ModalH2 } from '../Modal'
+import { ModalH2, ModalP, ModalUL } from '../Modal'
 const Treatments = ({ modalOpen, setModalOpen }) => {
 
     const [selected, setSelected] = useState([])
@@ -43,12 +43,12 @@ const Treatments = ({ modalOpen, setModalOpen }) => {
                 ))}
                 <Modal modalOpen={modalOpen} onClose={() => setModalOpen(false)} selected={selected}>
                     <ModalH2>{selected.name}</ModalH2>
-                    <p>{selected.detailedDescription}</p>
-                    <ul>
+                    <ModalP>{selected.detailedDescription}</ModalP>
+                    <ModalUL>
                         <li>
                             {selected.list}
                         </li>
-                    </ul>
+                    </ModalUL>
                     <p>{selected.warning} </p>
                     <BookButton
                         onClick={() => window.open("https://www.bokadirekt.se/places/feel-great-25951", "_blank")}
