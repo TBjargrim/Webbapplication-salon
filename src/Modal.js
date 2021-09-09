@@ -46,41 +46,85 @@ font-size:20px;
 cursor:pointer;
 `
 const Content = styled.div`
-position:absolute;
-top:50%;
-right:50%;
-transform: translate(50%,-50%);
 text-align:center;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
+
 
 `
-export const ModalUL = styled.ul`
- margin:0;
- padding:0;
-li{
-  margin:0;
- padding:0;
-  border:none;
-}
-`
+
 export const ModalH2 = styled.h2`
-font-size:32px;
+font-size:40px;
+letter-spacing:1.5px;
 margin:40px 0 0 0;
 color:#1B4D4A;
 `
-export const ModalP = styled.p`
-min-width:550px;
-min-height:450px;
-font-size:24px;
+export const ModalDiv = styled.div`
+margin:0;
+width:100%;
 
-line-height:22px;
-border:1px solid blue;
+  div{
+    display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  h5{
+    font-size:24px;
+margin:20px 0 10px 0;
+color:#292929;
+font-weight:400;
+max-width:550px;
+text-align:center;
+  }
+}
+p{
+min-width:650px;
+font-size:16px;
+color:#292929;
+ line-height:24px;
+ font-weight:400;
+}
+p > span{
+  color:#5E6868;
+}
+h6{
+  margin:30px 0 0 0;
+  font-size:16px;
+  font-weight:600;
+  display:flex;
+  flex-direction:column;
+}
+`
+export const ModalButton = styled.button`
+margin:45px 0 0 0;
+position:absolute;
+bottom:10%;
+width:200px;
+    color:#FFFFFF;
+    position:relative;
+    border: 1px solid #1B4D4A;
+box-sizing: border-box;
+background:#1B4D4A;
+padding:10px;
+font-size:16px;
+letter-spacing:2px;
+cursor:pointer;
+&:hover{
+    color: #1B4D4A;
+    background:#B2BFBE;
+}
+&:active{
+    transform: scale(0.98);
+}
+@media screen and (max-width:900px) {
+    margin:20px 0 0 0;
+}
+@media screen and (max-width:500px) {
+    padding:7px;
+font-size:12px;
+}
 `
 
-const Modal = ({ modalOpen, children, onClose }) => {
+
+const Modal = ({ modalOpen, children, onClose, selected }) => {
   if (!modalOpen) return null
 
   return (

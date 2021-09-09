@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <ContainerDivContact id="kontakt">
             <Wrapper>
-                <h2>Kontakta oss! </h2>
+                <h2>Kontakta oss </h2>
                 <InfoWrapper>
                     <InfoDiv>
                         <LocationIcon /><Adressp><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</Adressp>
@@ -24,7 +24,7 @@ const Contact = () => {
                         <PhoneIcon /><p>08- 33 50 80</p>
                     </InfoDiv>
                 </InfoWrapper>
-                <h4>Välkommen </h4>
+                <h4>Varmt välkommen! </h4>
             </Wrapper>
         </ContainerDivContact >
     )

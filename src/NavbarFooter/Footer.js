@@ -1,8 +1,12 @@
 import React from 'react'
-import { FooterContainer, Wrapper, Adress, Social, FacebookIcon, InstagramIcon } from './Styling'
+import BackgroundVideo from '../Video/BackgroundVideo.mp4'
+import { FooterContainer, Wrapper, Adress, Social, FacebookIcon, InstagramIcon, VideoFooter } from './Styling'
 const Footer = () => {
     return (
         <FooterContainer>
+            <VideoFooter>
+            <video autoPlay loop muted src={BackgroundVideo} type='video/mp4' />
+</VideoFooter>
             <Wrapper>
                 <Adress>
                     <p>Birkagatan 27</p>

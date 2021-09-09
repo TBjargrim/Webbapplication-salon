@@ -5,12 +5,12 @@ import Tebeskin from '../Images/Tebeskin.jpg'
 import Nannic from '../Images/Nannic.jpg'
 import IMAGE from '../Images/imagescincare.jpg'
 export const DataProducts = [
-    {
-        name: 'Exuviance',
-        description: '',
-        image: Excuviance,
-        id: 1
-    },
+    // {
+    //     name: 'Exuviance',
+    //     description: '',
+    //     image: Excuviance,
+    //     id: 1
+    // },
     {
         name: 'Dermaceuticals',
         description: '',

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerDiv = styled.div`
-height:80vh;
+margin-top:15px;
 @media screen and (max-width:700px) {
     height:90vh;
 }
@@ -10,15 +10,13 @@ height:80vh;
 }
 `
 export const TopDiv = styled.div`
-position:relative;
-left:15%;
+    text-align:center;
 h2{
     padding:150px 0 15px 0;
     color: #1B4D4A;
     font-style: normal;
 font-weight: normal;
 font-size: 56px;
-line-height: 64px;
 @media screen and (max-width:1050px) {
     padding:100px 0 10px 0;
     text-align:center;
@@ -28,6 +26,7 @@ line-height: 64px;
 }
 }
 p{
+    padding:0 0 50px 0;
     color:#292929;
 font-style: normal;
 font-weight: normal;
@@ -36,15 +35,6 @@ line-height: 35px;
 @media screen and (max-width:1050px) {
     text-align:center;
 }
-}
-@media screen and (max-width:1050px) {
-    text-align:center;
-    left:7%;
-    width:650px;
-}
-@media screen and (max-width:500px) {
-    left:9%;
-    width:350px;
 }
 `
 export const ProductUL = styled.ul`
@@ -68,7 +58,6 @@ li{
 }
     @media screen and (max-width:500px) {
         margin:5px 25px 0 0;
-        /* justify-content:space-around; */
 }
 
 }
@@ -98,7 +87,6 @@ h5{
 font-weight: 500;
 letter-spacing:1px;
 font-size: 24px;
-line-height: 32px;
 text-align:center;
 color: #1B4D4A;
 @media screen and (max-width:500px) {
@@ -111,7 +99,6 @@ color: #1B4D4A;
 }
 @media screen and (max-width:1200px) {
     margin:0 50px 0 50px;
-    max-width:650px;
 }
 @media screen and (max-width:1200px) {
 padding:0;

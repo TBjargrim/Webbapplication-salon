@@ -1,17 +1,25 @@
-import React, { useState, children } from 'react'
+import React, { useState, children, useEffect } from 'react'
 import Modal from '../Modal';
 // import Treatment from './Treatment';
 import { DataTreatments } from '../Data/DataTreat'
 import { Buttons, ContainerDiv, DescritionDiv, AllTreatmentsUL, BookButton, InfoButton } from './Styling/StylingTreatments'
-import { ModalH2, ModalP, ModalUL } from '../Modal'
+import { ModalH2, ModalDiv,ModalButton } from '../Modal'
 const Treatments = ({ modalOpen, setModalOpen }) => {
 
     const [selected, setSelected] = useState([])
+    const markedTreatments = selected.detailedDescription;
 
     const handleClick = (i) => {
         setSelected(i)
     }
 
+    // console.log(selected)
+
+
+    useEffect(() => {
+
+        // console.log(markedTreatments)
+    }, [selected]);
     return (
         <ContainerDiv id="behandlingar">
             <DescritionDiv>
@@ -41,18 +49,23 @@ const Treatments = ({ modalOpen, setModalOpen }) => {
                     </li>
 
                 ))}
-                <Modal modalOpen={modalOpen} onClose={() => setModalOpen(false)} selected={selected}>
+                <Modal modalOpen={modalOpen} onClose={() => setModalOpen(false)} children={children}>
                     <ModalH2>{selected.name}</ModalH2>
-                    <ModalP>{selected.detailedDescription}</ModalP>
-                    <ModalUL>
-                        <li>
-                            {selected.list}
-                        </li>
-                    </ModalUL>
-                    <p>{selected.warning} </p>
-                    <BookButton
+                    <ModalDiv>
+                        {markedTreatments &&
+                            <div>{markedTreatments.map(i => (
+                                <div>
+                                    <h5> {i.name} </h5>
+                                    <p> {i.describe}</p>
+                                    <h6> {i.list}</h6>
+                                    <p> <span>{i.extra}</span></p>
+                                </div>
+                            ))}</div>
+                        }
+                    </ModalDiv>
+                    <ModalButton
                         onClick={() => window.open("https://www.bokadirekt.se/places/feel-great-25951", "_blank")}
-                    >Boka</BookButton>
+                    >Boka</ModalButton>
 
                 </Modal>
             </AllTreatmentsUL>

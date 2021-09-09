@@ -22,7 +22,6 @@ z-index:10;
 export const NavbarContainer = styled.div`
 display:flex;
 justify-content:space-between;
-height:80px;
 z-index:1;
 width:100%;
 padding:0 24px;
@@ -37,7 +36,6 @@ export const NavLogo = styled.button`
 color:#fff;
 justify-self:flex-start;
 cursor:pointer;
-/* font-size:1.5rem; */
 display:flex;
 align-items:center;
 margin-left:24px;
@@ -57,6 +55,7 @@ display:none;
 }
 `
 export const NavMenu = styled.ul`
+margin:auto;
 display:flex;
 align-items:center;
 list-style:none;
@@ -67,7 +66,7 @@ list-style:none;
 `
 export const NavItem = styled.li`
 height:80px;
-font-size:24px;
+font-size:16px;
 color:#FFFFFF;
 letter-spacing:2px;
 font-weight:200;
@@ -192,20 +191,38 @@ grid-template-rows:repeat(6,60px);
 export const FooterContainer = styled.div`
 margin:70px 0 20px 0;
 height:15vh;
-background-image: url(${BackgroundIMG});
-background-size:cover;
+/* background-image: url(${BackgroundIMG});
+background-size:cover; */
 width:100%;
+`
+export const VideoFooter=styled.div`
+position: absolute;
+height:15vh;
+width: 100%;
+overflow: hidden;
+video{
+    width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+background: #fff;
+}
 `
 export const Wrapper = styled.div`
 display:flex;
+position:relative;
+top:15%;
+margin:0 100px 0 100px;
+background:rgb(208,213,213, 0.5);
 justify-content:space-around;
 align-items:center;
-height:13vh;
+height:10vh;
 p{
+    
     letter-spacing:1px;
-    color:#FFFFFF;
+    color:#292929;
     font-size:16px;
-font-weight:200;
+font-weight:800;
 }
 `
 export const Adress = styled.div`
@@ -218,7 +235,7 @@ p{
     margin:0 0 10px 0;
 max-width:400px;
 font-size:16px;
-font-weight:200;
+font-weight:800;
 letter-spacing:1px;
 }
 @media screen and (max-width:768px) {
