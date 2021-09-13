@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const ContainerDiv = styled.div`
 position:relative;
-margin:350px 0 0 0;
+margin:150px 0 0 0;
 background: rgba(208, 213, 213, 0.5);
 padding-bottom:10px;
 @media screen and (max-width:1000px) {
-    margin:200px 0 0 0;
+    margin:150px 0 0 0;
     }
 @media screen and (max-width:500px) {
     margin:0;
@@ -51,7 +51,6 @@ line-height: 35px;
 }
 @media screen and (max-width:500px) {
     left:9%;
-    /* width:350px; */
 }
 `
 export const AllTreatmentsUL = styled.ul`

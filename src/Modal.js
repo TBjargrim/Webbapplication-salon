@@ -2,12 +2,12 @@ import React, { children } from 'react';
 // import REACTDOM from 'react-dom';
 import styled from "styled-components";
 import { GrClose } from 'react-icons/gr'
-// import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io'
-
-const portalRoot = document.getElementById('portal-root');
 
 const Background = styled.div`
   position: fixed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   top: 0;
   left: 0;
   right: 0;
@@ -26,9 +26,12 @@ const ModalBackdrop = styled.div`
 `
 const ModalBox = styled.div`
   position: relative;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  display:flex;
+  justify-content:center;
+  align-items:center;
   min-height: 70%;
   width:60%;
   background-color: white;
@@ -36,6 +39,10 @@ const ModalBox = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   z-index: 1999;
   padding: 40px;
+  @media screen and (max-width:1400px) {
+
+  /* transform: translate(-50%, -50%); */
+}
 `
 const CloseButton = styled(GrClose)`
 position:absolute;
@@ -44,6 +51,9 @@ right:7%;
 width:100px;
 font-size:20px;
 cursor:pointer;
+@media screen and (max-width:960px) {
+  right:3%;
+}
 `
 const Content = styled.div`
 text-align:center;
@@ -81,6 +91,9 @@ font-size:16px;
 color:#292929;
  line-height:24px;
  font-weight:400;
+ @media screen and (max-width:960px) {
+  min-width:0px;
+}
 }
 p > span{
   color:#5E6868;
@@ -91,6 +104,9 @@ h6{
   font-weight:600;
   display:flex;
   flex-direction:column;
+}
+@media screen and (max-width:960px) {
+
 }
 `
 export const ModalButton = styled.button`

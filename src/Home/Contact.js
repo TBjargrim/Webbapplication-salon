@@ -15,7 +15,9 @@ const Contact = () => {
                 <h2>Kontakta oss </h2>
                 <InfoWrapper>
                     <InfoDiv>
-                        <LocationIcon /><Adressp><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</Adressp>
+                        <LocationIcon/>
+                        
+                        <Adressp><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</Adressp>
                     </InfoDiv>
                     <InfoDiv onClick={sendEmail}>
                         <MailIcon /><p>fridaby@gmail.com</p>

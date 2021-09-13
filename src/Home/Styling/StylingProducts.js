@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const ContainerDiv = styled.div`
 margin-top:15px;
 @media screen and (max-width:700px) {
-    height:90vh;
+    /* height:90vh; */
 }
 @media screen and (max-width:500px) {
-    height:115vh;
+    /* height:115vh; */
 }
 `
 export const TopDiv = styled.div`

@@ -26,8 +26,8 @@ h2{
    font-weight:200;
     letter-spacing:2px;
     text-align:center;
-    @media screen and (max-width:500px) {
-        font-size:48px;
+    @media screen and (max-width:960px) {
+        font-size:32px;
 }
 }
 h4{
@@ -37,14 +37,16 @@ h4{
    font-weight:200;
     letter-spacing:2px;
     text-align:center;
-    @media screen and (max-width:500px) {
-        font-size:56px;
+    @media screen and (max-width:960px) {
+        font-size:32px;
 }
 }
-@media screen and (max-width:500px) {
-    min-width:400px;
-    height:450px;
+@media screen and (max-width:960px) {
+    margin:100px 60px 100px 60px;
+      outline:1px solid #1B4D4A;
+      outline-offset: 15px;
 }
+
 `
 export const InfoWrapper = styled.div`
 display:flex;
@@ -54,8 +56,9 @@ text-align:center;
 background-color:rgba(178, 191, 190, 0.9);
 border-radius:20px;
 padding:15px 0 15px 0;
-@media screen and (max-width:500px) {
-    margin:20px 20px 0 20px;
+@media screen and (max-width:960px) {
+    margin:10px;
+    justify-content:center;
 }
 
 `
@@ -75,13 +78,13 @@ export const InfoDiv = styled.div`
         color: #1B4D4A;
         letter-spacing:0.5px;
         font-size:24px;
-        @media screen and (max-width:500px) {
-            /* display:none; */
+        @media screen and (max-width:960px) {
+            display:none;
             font-size:12px;
 }
     }
-    @media screen and (max-width:500px) {
-
+    @media screen and (max-width:960px) {
+        margin:10px;
 }
 `
 export const Adressp = styled.p`
@@ -89,27 +92,26 @@ export const Adressp = styled.p`
         color: #1B4D4A;
         letter-spacing:0.5px;
         font-size:24px;
-        @media screen and (max-width:500px) {
-}
+
 `
 export const LocationIcon = styled(GoLocation)`
 color:#56315B;
 font-size:40px;
-@media screen and (max-width:500px) {
-            font-size:24px;
+@media screen and (max-width:960px) {
+    font-size:24px;
 }
 `
 export const MailIcon = styled(GoMail)`
 color:#56315B;
 font-size:40px;
-@media screen and (max-width:500px) {
+@media screen and (max-width:960px) {
             font-size:24px;
 }
 `
 export const PhoneIcon = styled(AiOutlinePhone)`
 color:#56315B;
 font-size:40px;
-@media screen and (max-width:500px) {
+@media screen and (max-width:960px) {
             font-size:24px;
 }
 `

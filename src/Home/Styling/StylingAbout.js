@@ -22,15 +22,21 @@ font-size: 56px;
     font-size: 32px;
 }
 }
+img{
+    margin:50px 0 50px 0;
+    @media screen and (max-width:960px) {
+width:100px;
+}
+}
 p{
     margin:40px 0 0 0;
     color:#292929;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
+font-weight:normal;
+font-size: 16px;
 line-height: 35px;
 @media screen and (max-width:1050px) {
     text-align:center;
+    margin:40px 40px 0 40px;
 }
 @media screen and (max-width:500px) {
     font-size: 16px;

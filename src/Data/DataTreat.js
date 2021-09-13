@@ -142,12 +142,36 @@ describe: 'Behandlingen är en av de hetaste och nyaste behandlingarna på markn
 
 
     },
-
-
-    // Om EMSlim sculpt
-    // EmSlim Sculpt levererar elektromagnetiska våg (HI-EMT) som expanderar och drar samman musklerna som med träning där man omformar inre strukturen av muskeln som sedan ökar tillväxten och därefter producerar nya kedjor av muskelfibrer.
-    // EMSlim bygger muskler så bränner den även fett.
-    // - Huduppstramning - Fettreducering - Muskeluppbyggnad
-    // Behandlings områden - Rumpa, Mage, Ben, Biceps/Triceps
-    // 
+    {
+        name: 'PRX-T33',
+        desciption: 'PRX är en ny och revolutionerande behandling som arbetar för hudföryngring och anti-aging.',
+        image: EMSlim,
+        id: 10,
+        detailedDescription: [
+            {
+                name:'PRX',
+                describe:'PRX är en ny och revolutionerande behandling inom biorevitalisering som arbetar hudföryngrande och anti-aging. Den är nålfri och skapar minimalt med synlig negativ påverkar på huden vilket gör att du slipper det som kallas ”down-time” direkt efter din behandling. Den ger en djupgående effekt som både ger omedelbara samt långsiktiga resultat. PRX T33 är en Medicintekniskt klassad produkt (CE-märkt klass I) med internationellt patent. Behandlingen kan utföras året om på alla hudtyper/hudtoner och kan även kombineras med andra behandlingar för att optimera effekten. Detta i kombination med dom fantastiska långsiktiga resultaten gör att denna behandling snabbt ökar i popularitet. PRX-T33 gör följande:',
+                list: [
+                    'Reducerar rynkor och fina linjer, ', 'Stimulerar hudens egen kollagenbildning, ', 'Skapar djup återfuktning och glow, ', 'Återskapar hudens fyllighet, ', 'Reducerar ärrbildning, ', 'Reducerar pigmentfläckar, ', 'Jämnar ut hudtonen', 'Ökar cellförnyelsen', 
+                ],
+                extra: 'Behandlingsområden: Ansitke, Hals, Dekolletage och händer.'
+            }
+        ]
+    },
+    {
+        name: 'Kombinationsbehandlingar',
+        desciption: 'PRX- T33 används i direkt anslutning till Microneedling vilket leder till ökad kollagenstimulering och biorevitalisering.',
+        image: EMSlim,
+        id: 11,
+        detailedDescription: [
+            {
+                name:'PRX och Microneedling',
+                describe:'PRX- T33 används i direkt anslutning till Microneedling vilket leder till ökad kollagenstimulering och biorevitalisering.',
+                list: [
+                    'Reducerar rynkor och fina linjer, ', 'Stimulerar hudens egen kollagenbildning, ', 'Skapar djup återfuktning och glow, ', 'Återskapar hudens fyllighet, ', 'Reducerar ärrbildning, ', 'Reducerar pigmentfläckar, ', 'Jämnar ut hudtonen', 'Ökar cellförnyelsen', 
+                ],
+                extra: 'Behandlingsområden: Ansikte, Hals, Dekolletage och händer.'
+            }
+        ]
+    },
 ]

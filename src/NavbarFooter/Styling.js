@@ -45,12 +45,12 @@ text-decoration:none;
 export const MobileIcon = styled.div`
 display:none;
 @media screen and (max-width:768px) {
-    display:block;
-    position:absolute;
-    top:0;
-    right:0;
-    transform:translate(-100%,60%);
+    /* display:block; */
+    width:100%;
+    margin:30px 10px 20px 0;
     font-size:32px;
+    justify-content:flex-end;
+display:flex;
     cursor:pointer;
 }
 `
@@ -110,7 +110,8 @@ text-decoration:none;
 }
 `
 export const BurgerMenyIcon = styled(FaBars)`
-color:#ffffff;`
+color:#ffffff;
+`
 
 //Styling Sidebar
 
@@ -191,8 +192,6 @@ grid-template-rows:repeat(6,60px);
 export const FooterContainer = styled.div`
 margin:70px 0 20px 0;
 height:15vh;
-/* background-image: url(${BackgroundIMG});
-background-size:cover; */
 width:100%;
 `
 export const VideoFooter=styled.div`
@@ -218,7 +217,6 @@ justify-content:space-around;
 align-items:center;
 height:10vh;
 p{
-    
     letter-spacing:1px;
     color:#292929;
     font-size:16px;
@@ -227,6 +225,9 @@ font-weight:800;
 `
 export const Adress = styled.div`
 line-height:30px;
+@media screen and(max-width:960px){
+    line-height:24px;
+}
 
 `
 export const Social = styled.div`

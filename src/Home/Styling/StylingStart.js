@@ -6,9 +6,9 @@ export const ContainerDiv = styled.div`
 margin:auto;
 height:99vh;
 width:100%;
-overflow: hidden;
+overflow:hidden;
 @media screen and (max-width:500px) {
-    height:89vh;
+    /* height:79vh; */
 }
 `
 export const VideoBackground =styled.div`
