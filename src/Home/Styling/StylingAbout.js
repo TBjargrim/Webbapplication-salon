@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { GoLocation } from "react-icons/go";
 import { BsStarFill } from "react-icons/bs";
 
 export const ContainerDiv = styled.div`
@@ -51,21 +52,7 @@ line-height: 35px;
 @media screen and (max-width:500px) {
     left:9%;
 }
-h4{
-    font-size: 32px;
-    font-weight: normal;
-    border-top:1px solid #9771A0;
-    border-bottom:1px solid #9771A0;
-    margin:15px 350px 15px 350px;
-   padding:25px 0 25px 25px;
-   @media screen and (max-width:1200px) {
-    margin:15px 150px 15px 150px;
-}
-   @media screen and (max-width:900px) {
-    margin:15px;
-    font-size: 24px;
-}
-}
+
 h3{
     margin-top:100px;
     color: #1B4D4A;
@@ -81,6 +68,25 @@ font-size: 48px;
 @media screen and (max-width:1100px) {
 margin:90px 0 0 0;
 }
+`
+export const LocationDiv =styled.div`
+    border-top:1px solid #9771A0;
+    cursor:pointer;
+    margin:15px 0 0 0;
+   padding:25px 0 25px 25px;
+h4{
+    font-size: 26px;
+    font-weight: normal;
+    margin:15px 0 0 0;
+   @media screen and (max-width:1200px) {
+    margin:15px 100px 15px 100px;
+}
+   @media screen and (max-width:900px) {
+    margin:15px;
+    font-size: 24px;
+}
+}
+
 `
 export const AboutFooter =styled.div`
 display:flex;
@@ -117,6 +123,21 @@ h5{
 `
 export const InstagramIcon = styled(FaInstagram)`
 margin:15px 0 0 15px;
+color:#56315B;
+font-size:40px;
+cursor:pointer;
+&:hover{
+color:#607A7A;
+}
+&:active{
+    transform: scale(0.98);
+}
+@media screen and (max-width:1100px) {
+    font-size:32px;
+}
+`
+export const LocationIcon = styled(GoLocation)`
+margin:15px 0 0 0;
 color:#56315B;
 font-size:40px;
 cursor:pointer;

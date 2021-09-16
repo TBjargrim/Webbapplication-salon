@@ -1,4 +1,3 @@
-import BackgroundIMG from '../Images/Background.jpg'
 import facial from '../Images/facial.jpg'
 import Dermapen from '../Images/dermapen.jpg'
 import Icepeel from '../Images/icepeel.jpg'
@@ -8,6 +7,8 @@ import Wax from '../Images/Wax.jpg'
 import Massage from '../Images/Massage.jpg'
 import Lashlift from '../Images/Lashlift.jpg'
 import NBE from '../Images/NBE.jpg'
+import PRX from '../Images/PRX.jpg'
+import PRXMicro from '../Images/PRXMicro.jpg'
 
 export const DataTreatments = [
     {
@@ -145,7 +146,7 @@ describe: 'Behandlingen är en av de hetaste och nyaste behandlingarna på markn
     {
         name: 'PRX-T33',
         desciption: 'PRX är en ny och revolutionerande behandling som arbetar för hudföryngring och anti-aging.',
-        image: EMSlim,
+        image: PRX,
         id: 10,
         detailedDescription: [
             {
@@ -159,9 +160,9 @@ describe: 'Behandlingen är en av de hetaste och nyaste behandlingarna på markn
         ]
     },
     {
-        name: 'Kombinationsbehandlingar',
-        desciption: 'PRX- T33 används i direkt anslutning till Microneedling vilket leder till ökad kollagenstimulering och biorevitalisering.',
-        image: EMSlim,
+        name: 'Kombinations-behandlingar',
+        desciption: 'PRX- T33 kan användas i direkt anslutning till Microneedling vilket leder till ökad kollagenstimulering och biorevitalisering.',
+        image: PRXMicro,
         id: 11,
         detailedDescription: [
             {

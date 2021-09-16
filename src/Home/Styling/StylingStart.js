@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { BsArrowDown } from "react-icons/bs";
-import {motion} from 'framer-motion'
 
 export const ContainerDiv = styled.div`
 margin:auto;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import BackgroundIMG from '../Images/Background.jpg'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaBars } from 'react-icons/fa';

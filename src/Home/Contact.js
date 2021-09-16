@@ -8,13 +8,17 @@ const Contact = () => {
     const makeCall = () => {
         window.location = "tel:+468335080";
     }
+    const showLocation = () => {
+        // window.location ="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
+        window.location ="http://maps.google.com/?q=Birkagatan 27, Stockholm, Sweden"
+    }
 
     return (
         <ContainerDivContact id="kontakt">
             <Wrapper>
                 <h2>Kontakta oss </h2>
                 <InfoWrapper>
-                    <InfoDiv>
+                    <InfoDiv onClick={showLocation}>
                         <LocationIcon/>
                         
                         <Adressp><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</Adressp>

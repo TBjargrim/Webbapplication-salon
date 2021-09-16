@@ -1,5 +1,3 @@
-import Flower from '../Images/Flower.jpg'
-import Excuviance from '../Images/excuviance2.jpg'
 import DP from '../Images/dpDerm.jpg'
 import Tebeskin from '../Images/Tebeskin.jpg'
 import Nannic from '../Images/Nannic.jpg'

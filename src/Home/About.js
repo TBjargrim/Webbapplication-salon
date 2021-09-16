@@ -2,9 +2,14 @@ import React from 'react'
 import Cidesco from '../Images/cidesco.jpg'
 import Itec from '../Images/itec.jpg'
 import SHR from '../Images/shr.jpg'
-import { ContainerDiv, ImageWrapper, InfoWrapper, AboutFooter, FacebookIcon,InstagramIcon,Stars } from './Styling/StylingAbout'
+import { ContainerDiv, LocationIcon,LocationDiv, InfoWrapper, AboutFooter, FacebookIcon,InstagramIcon,Stars } from './Styling/StylingAbout'
+
 const About = () => {
 
+    const showLocation = () => {
+        // window.location ="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
+        window.location ="http://maps.google.com/?q=Birkagatan 27, Stockholm, Sweden"
+    }
 
     return (
         <ContainerDiv>
@@ -17,7 +22,10 @@ const About = () => {
                 <img src={Cidesco} alt='Cidesco Logga' />
                 <img src={Itec} alt='Itec Logga' style={{marginRight:10}}/>
                 <img src={SHR} alt='SHR Logga' />
+          <LocationDiv onClick={showLocation}>
+                <LocationIcon /> 
                 <h4>Ni hittar oss på Birkagatan 27<br/> S:t Eriksplan</h4>
+             </LocationDiv>
                 <AboutFooter>
                     <div>
                     <FacebookIcon

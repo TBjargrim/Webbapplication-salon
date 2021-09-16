@@ -1,5 +1,4 @@
 import React, { children } from 'react';
-// import REACTDOM from 'react-dom';
 import styled from "styled-components";
 import { GrClose } from 'react-icons/gr'
 
@@ -140,7 +139,7 @@ font-size:12px;
 `
 
 
-const Modal = ({ modalOpen, children, onClose, selected }) => {
+const Modal = ({ modalOpen, children, onClose }) => {
   if (!modalOpen) return null
 
   return (

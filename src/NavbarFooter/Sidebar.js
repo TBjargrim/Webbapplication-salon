@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 import {
     SideBarContainer, CloseIcon, Icon, SidebarWrapper,
-    SidebarLink, NavButton, NavBtnLink, SidebarMenu, SocialSidebar, FacebookIcon, InstagramIcon
+ SidebarMenu, SocialSidebar, FacebookIcon, InstagramIcon
 } from './Styling';
 
 
