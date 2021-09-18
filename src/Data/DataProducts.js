@@ -10,7 +10,7 @@ export const DataProducts = [
     //     id: 1
     // },
     {
-        name: 'Dermaceuticals',
+        name: 'DP Derm',
         description: '',
         image: DP,
         id: 2

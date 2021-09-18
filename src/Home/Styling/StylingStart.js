@@ -6,9 +6,6 @@ margin:auto;
 height:99vh;
 width:100%;
 overflow:hidden;
-@media screen and (max-width:500px) {
-    /* height:79vh; */
-}
 `
 export const VideoBackground =styled.div`
 position: absolute;
@@ -30,7 +27,7 @@ background: #fff;
 export const Header = styled.h1`
     font-family: Red Hat Text;
 font-weight: 300;
-font-size: 114px;
+font-size: 98px;
 color: #FFFFFF;
 letter-spacing:3px;
 text-align:center;
@@ -42,12 +39,11 @@ text-align:center;
     font-size: 38px;
 }
 `
-
 export const WrapperDiv = styled.div`
-background:rgb(208,213,213, 0.6);
+background:rgb(94,104,104, 0.8);
 position:relative;
-padding:70px;
-margin:0 150px 0 150px;
+padding:50px;
+margin:0 250px 0 250px;
 top:25%;
 border-radius:10px;
 outline: 10px solid rgba(255,255,255,0.05);
@@ -57,11 +53,10 @@ outline: 10px solid rgba(255,255,255,0.05);
     align-items:center;
 h5{
     margin:50px 80px 0 80px;
-color: black;
+    color: #FFFFFF;
 font-weight:700;
 letter-spacing:1px;
 font-size: 24px;
-/* line-height: 30px; */
 text-align:center;
 @media screen and (max-width:1600px) {
     margin:50px 10px 0 10px;
@@ -73,7 +68,6 @@ text-align:center;
 
 }
 }
-
 button {
     width:250px;
     margin-top:90px;
@@ -94,11 +88,10 @@ background:#FFFFFF;
     transform: scale(0.98);
 }
 @media screen and (max-width:1600px) {
-    margin-top:20px;
+    /* margin-top:20px; */
     font-size: 20px;
 }
 @media screen and (max-width:500px) {
-    /* font-size: 15px; */
     width:220px;
 }
 }
@@ -110,14 +103,13 @@ background:#FFFFFF;
     top:15%;
     margin:5px;
 }
-
 `
 export const ArrowDown = styled(BsArrowDown)`
 position:absolute;
 bottom:2%;
-left:35%;
+left:80%;
 color: #FFFFFF;
-width:100%;
+font-size:24px;
 z-index:100;
 height:50px;
 font-weight:200;

@@ -5,7 +5,6 @@ import { AiOutlinePhone } from "react-icons/ai";
 
 export const ContainerDivContact = styled.div`
 margin:80px 0 80px 0;
-/* height:60vh; */
 position:relative;
 background: rgba(208, 213, 213, 0.5);
 padding-bottom:10px;
@@ -15,9 +14,7 @@ align-items:center;
 `
 
 export const Wrapper = styled.div`
-margin:100px 0 100px 0;
 background-color:rgba(178, 191, 190, 0.8);
-min-width:900px;
 position:relative;
 h2{
     margin:50px 0 0 0;
@@ -31,7 +28,7 @@ h2{
 }
 }
 h4{
-    margin:50px 0 50px 0;
+    margin:50px;
     font-size: 56px;
     color: #1B4D4A;
    font-weight:200;

@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 import BackgroundVideo from '../Video/BackgroundVideo.mp4'
-import { FooterContainer, Wrapper, Adress, Social, FacebookIcon, InstagramIcon, VideoFooter } from './Styling'
+import Logo from '../Images/Logo.png';
+import { FooterContainer, Wrapper, Adress, Social, FacebookIcon, InstagramIcon, VideoFooter, FooterLogo} from './Styling'
 const Footer = () => {
     return (
         <FooterContainer>
@@ -12,7 +14,17 @@ const Footer = () => {
                     <p>Birkagatan 27</p>
                     <p>St Eriksplan, Vasastan</p>
                 </Adress>
-                <div>Logga</div>
+                <FooterLogo>
+                <Link
+                    activeClass="active"
+                    to="hem"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    <img src={Logo} alt='Logo' />
+                </Link>
+                </FooterLogo>
                 <Social>
                     <p>Följ oss för att ta del av nyheter och erbjudanden</p>
                     <FacebookIcon

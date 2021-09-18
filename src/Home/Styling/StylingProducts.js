@@ -2,12 +2,6 @@ import styled from 'styled-components';
 
 export const ContainerDiv = styled.div`
 margin-top:15px;
-@media screen and (max-width:700px) {
-    /* height:90vh; */
-}
-@media screen and (max-width:500px) {
-    /* height:115vh; */
-}
 `
 export const TopDiv = styled.div`
     text-align:center;
@@ -46,24 +40,20 @@ list-style:none;
 position:relative;
 top:10%;
 justify-content:center;
-
 border-top:1px solid #9771A0;
 border-bottom:1px solid #9771A0;
 li{
     cursor:pointer;
     margin:25px 25px 25px 25px;
-
-    @media screen and (max-width:800px) {
-        margin:0 25px 25px 25px;
-}
     @media screen and (max-width:500px) {
-        margin:5px 25px 0 0;
+        /* margin:5px 25px 0 0; */
 }
 
 }
 div{
-    /* height:250px; */
+
     img{
+     
     width:250px;
     box-shadow: 4px 4px 3px 3px rgba(0, 0, 0, 0.2);
     &:hover{
@@ -75,9 +65,12 @@ div{
     @media screen and (max-width:1300px) {
         width:150px;
 }
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:600px) {
         width:90px;
 }
+}
+@media screen and (max-width:600px) {
+        width:90px;
 }
 }
 
@@ -89,7 +82,7 @@ letter-spacing:1px;
 font-size: 24px;
 text-align:center;
 color: #1B4D4A;
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     font-size: 16px;
 }
 }
@@ -103,6 +96,4 @@ color: #1B4D4A;
 @media screen and (max-width:1200px) {
 padding:0;
 }
-
-
 `

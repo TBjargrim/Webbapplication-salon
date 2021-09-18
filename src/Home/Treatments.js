@@ -49,12 +49,13 @@ const Treatments = ({ modalOpen, setModalOpen }) => {
                     </li>
 
                 ))}
-                <Modal modalOpen={modalOpen} onClose={() => setModalOpen(false)} children={children}>
+                <Modal  modalOpen={modalOpen} onClose={() => setModalOpen(false)} children={children}>
+                    <ModalDiv key={selected.id}>
                     <ModalH2>{selected.name}</ModalH2>
-                    <ModalDiv>
                         {markedTreatments &&
-                            <div>{markedTreatments.map(i => (
-                                <div>
+                            <div key={markedTreatments.id} >
+                                {markedTreatments.map(i => (
+                                <div key={markedTreatments.id}>
                                     <h5> {i.name} </h5>
                                     <p> {i.describe}</p>
                                     <h6> {i.list}</h6>

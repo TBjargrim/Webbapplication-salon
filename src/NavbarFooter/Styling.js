@@ -13,7 +13,6 @@ align-items:center;
 position:fixed;
 top:0;
 z-index:10;
-
 @media screen and (max-width:960px) {
     transition:0.8s all ease;
 }
@@ -21,30 +20,38 @@ z-index:10;
 export const NavbarContainer = styled.div`
 display:flex;
 justify-content:space-between;
+align-items:center;
 z-index:1;
 width:100%;
 padding:0 24px;
 border-bottom:0.5px solid #ffffff;
-margin:60px 0 20px 0;
-@media screen and (max-width:768px) {
-    margin:0;
+margin:0 20px 20px 20px;
+@media screen and (max-width:1300px) {
+    margin:25px 0 25px 0;
 }
 `
-
-export const NavLogo = styled.button`
-color:#fff;
+export const NavLogo = styled.div`
+    color:#fff;
 justify-self:flex-start;
 cursor:pointer;
 display:flex;
 align-items:center;
-margin-left:24px;
-font-weight:bold;
-text-decoration:none;
+img{
+    max-height:200px;
+    @media screen and (max-width:1700px) {
+        max-height:150px;
+}
+    @media screen and (max-width:1300px) {
+        max-height:100px;
+}
+    @media screen and (max-width:960px) {
+        max-height:70px;
+}
+}
 `
 export const MobileIcon = styled.div`
 display:none;
-@media screen and (max-width:768px) {
-    /* display:block; */
+@media screen and (max-width:960px) {
     width:100%;
     margin:30px 10px 20px 0;
     font-size:32px;
@@ -56,20 +63,18 @@ display:flex;
 export const NavMenu = styled.ul`
 margin:auto;
 display:flex;
-align-items:center;
-list-style:none;
 
-@media screen and (max-width:768px) {
+list-style:none;
+@media screen and (max-width:960px) {
     display:none;
 }
 `
 export const NavItem = styled.li`
-height:80px;
 font-size:16px;
 color:#FFFFFF;
 letter-spacing:2px;
 font-weight:200;
-margin-left:30px;
+margin:10px;
 text-transform:uppercase;
 cursor:pointer;
 &:hover{
@@ -83,7 +88,7 @@ export const NavButton = styled.nav`
 display:flex;
 align-items:center;
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
     display:none;
 }
 `
@@ -163,26 +168,22 @@ cursor:pointer;
 }
 `
 export const SidebarMenu = styled.ul`
-display:grid;
-grid-template-columns:1fr;
-grid-template-rows:repeat(6,80px);
+display:flex;
+flex-direction:column;
 text-align:center;
-
 letter-spacing:1.5px;
 text-transform:uppercase;
 font-size:24px;
 font-weight:200;
 cursor:pointer;
 a{
+    margin:20px 0 20px 0;
     &:hover{
 color:#D0D5D5;
 }
 &:active{
     transform: scale(0.98);
 }
-}
-@media screen and(max-width:768px){
-grid-template-rows:repeat(6,60px);
 }
 `
 
@@ -195,8 +196,8 @@ width:100%;
 `
 export const VideoFooter=styled.div`
 position: absolute;
-height:15vh;
 width: 100%;
+height:15vh;
 overflow: hidden;
 video{
     width: 100%;
@@ -210,16 +211,32 @@ export const Wrapper = styled.div`
 display:flex;
 position:relative;
 top:15%;
+padding:20px;
 margin:0 100px 0 100px;
 background:rgb(208,213,213, 0.5);
 justify-content:space-around;
 align-items:center;
-height:10vh;
 p{
     letter-spacing:1px;
     color:#292929;
     font-size:16px;
-font-weight:800;
+font-weight:600;
+@media screen and (max-width:960px) {
+    font-size:12px;
+}
+}
+@media screen and (max-width:960px) {
+    margin:0 5px 0 5px;
+    padding:5px;
+}
+`
+export const FooterLogo = styled.div`
+color:#fff;
+cursor:pointer;
+display:flex;
+align-items:center;
+img{
+    max-height:100px;
 }
 `
 export const Adress = styled.div`
@@ -238,12 +255,13 @@ font-size:16px;
 font-weight:800;
 letter-spacing:1px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
     display:none;
 }
 `
 export const SocialSidebar = styled.div`
 text-align:center;
+margin:60px 0 0 0;
 `
 export const FacebookIcon = styled(FaFacebook)`
 color:white;
@@ -255,8 +273,8 @@ color:#607A7A;
 &:active{
     transform: scale(0.98);
 }
-@media screen and(max-width:768px){
-visibility:hidden;
+@media screen and(max-width:960px){
+    display:none;
 }
 `
 export const InstagramIcon = styled(FaInstagram)`
@@ -270,7 +288,7 @@ color:#607A7A;
 &:active{
     transform: scale(0.98);
 }
-@media screen and(max-width:768px){
-visibility:hidden;
+@media screen and(max-width:960px){
+    display:none;
 }
 `

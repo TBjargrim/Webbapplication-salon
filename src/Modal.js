@@ -25,22 +25,20 @@ const ModalBackdrop = styled.div`
 `
 const ModalBox = styled.div`
   position: relative;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   display:flex;
   justify-content:center;
   align-items:center;
   min-height: 70%;
+  max-height: 100vh;
+  overflow-y: auto;
   width:60%;
   background-color: white;
   overflow-y: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   z-index: 1999;
   padding: 40px;
-  @media screen and (max-width:1400px) {
-
-  /* transform: translate(-50%, -50%); */
+  @media screen and (max-width:960px) {
+    width:90%;
 }
 `
 const CloseButton = styled(GrClose)`
@@ -74,10 +72,9 @@ width:100%;
     display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
   h5{
     font-size:24px;
-margin:20px 0 10px 0;
+margin:15px 0 10px 0;
 color:#292929;
 font-weight:400;
 max-width:550px;
@@ -90,19 +87,21 @@ font-size:16px;
 color:#292929;
  line-height:24px;
  font-weight:400;
+ @media screen and (max-width:1300px) {
+  min-width:450px;
+}
  @media screen and (max-width:960px) {
   min-width:0px;
 }
 }
 p > span{
-  color:#5E6868;
+  color:#292929;
 }
 h6{
-  margin:30px 0 0 0;
+ max-width:750px;
+ line-height:24px;
   font-size:16px;
   font-weight:600;
-  display:flex;
-  flex-direction:column;
 }
 @media screen and (max-width:960px) {
 

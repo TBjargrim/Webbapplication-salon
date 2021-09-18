@@ -24,6 +24,14 @@ export const DataTreatments = [
                 name: 'Ansiktsbehandling Lyx',
                 describe: 'Komplett klassisk ansiktsbehandling anpassad efter hudtyp. Vi använder Exuviance-produkter. Rekommenderas som förstagångsbehandling eller regelbundet varannan månad. Syrepensling, lätt brynplock, ånga, portömning, massage, ansiktsmask, serum, dag/nattkräm. Max 90 min.',
             },
+        ]
+    },
+    {
+        name: 'AHA-Behandling/Kemisk Peeling',
+        desciption: 'Välj mellan olika AHA-behandlingar som bl.a föryngrar huden, reducerar rynkor och sluter samman porer',
+        image: facial,
+        id: 12,
+        detailedDescription: [
             {
                 name: 'AHA-Behandling/Kemisk Peeling',
                 describe: 'AHA-behandlingar med fruktsyror från Exuviance lämpar sig för alla hudtyper, även de allra känsligaste – både dam och herr. AHA-behandlingarna föryngrar huden genom att öka fuktigheten. De reducerar även rynkor, sluter samman porer och reducerar talgproduktionen i huden. Behandlingen förnyar i viss mån hudcellerna. Du kan välja en behandling på 45 minuter, den innehåller avtvätt, AHA-syrebehandling,  serum, ansiktsmask samt dagkräm/nattkräm. Behandlingen lämpar sig som kur varannan vecka 10-15 gånger. Du kan även välja vår 90 minuter långa behandling. Då ingår avtvätt, AHA-syrebehandling, eventuellt ånga, kort brynplock, antingen lång portömning eller lång massage, serum, ansiktsmask samt dagkräm/nattkräm.'

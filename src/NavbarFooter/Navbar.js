@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import Logo from '../Images/Logo.jpg';
+import Logo from '../Images/Logo.png';
 
 import {
     StyledNav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
@@ -24,6 +24,7 @@ const Navbar = ({ toggle }) => {
     return (
         <StyledNav scrollNav={scrollNav}>
             <NavbarContainer>
+                <NavLogo>
                 <Link
                     activeClass="active"
                     to="hem"
@@ -31,8 +32,9 @@ const Navbar = ({ toggle }) => {
                     smooth={true}
                     offset={0}
                     duration={500}>
-                    {/* <img src={Logo} alt='Logo' /> */}
+                    <img src={Logo} alt='Logo' />
                 </Link>
+                </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <BurgerMenyIcon />
                 </MobileIcon>
@@ -54,7 +56,7 @@ const Navbar = ({ toggle }) => {
                             to="behandlingar"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={-70}
                             duration={500}>
                             Behandlingar
                         </Link>
@@ -65,7 +67,7 @@ const Navbar = ({ toggle }) => {
                             to="produkter"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={-70}
                             duration={700}>
                             Produkter
                         </Link>

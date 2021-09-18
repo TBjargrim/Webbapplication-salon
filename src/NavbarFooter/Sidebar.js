@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         to="hem"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-50}
                         duration={500}
 
                         onClick={toggle}>
@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         to="behandlingar"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-70}
                         duration={500}
 
                         onClick={toggle}>
@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         to="produkter"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-70}
                         duration={500}
 
                         onClick={toggle}>
@@ -58,7 +58,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         to="kontakt"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-70}
                         duration={500}
 
                         onClick={toggle}>

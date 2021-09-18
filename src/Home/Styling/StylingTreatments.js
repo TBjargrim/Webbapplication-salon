@@ -62,7 +62,7 @@ margin:50px 0 150px 0;
 list-style:none;
 li{
     margin:15px;
-   padding:25px 0 25px 25px;
+   padding:25px;
    max-width:750px;
     display:flex;
     border-top:1px solid #9771A0;
@@ -105,13 +105,13 @@ top:7%;
 }
 }
 p{
-margin:25px 0 0 0;
+margin:25px;
     color: #292929;
-    width:350px;
+    width:300px;
 flex-wrap:wrap;
 font-size: 16px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:900px) {
     text-align:center;
 }
 `
