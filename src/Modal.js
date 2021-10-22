@@ -1,4 +1,4 @@
-import React, { children } from 'react';
+import React from 'react';
 import styled from "styled-components";
 import { GrClose } from 'react-icons/gr'
 
@@ -74,7 +74,7 @@ width:100%;
   align-items:center;
   h5{
     font-size:24px;
-margin:15px 0 10px 0;
+margin:5px 0 5px 0;
 color:#292929;
 font-weight:400;
 max-width:550px;
@@ -82,6 +82,7 @@ text-align:center;
   }
 }
 p{
+  margin:5px;
 min-width:650px;
 font-size:16px;
 color:#292929;
@@ -129,7 +130,7 @@ cursor:pointer;
     transform: scale(0.98);
 }
 @media screen and (max-width:900px) {
-    margin:20px 0 0 0;
+    margin:5px 0 0 0;
 }
 @media screen and (max-width:500px) {
     padding:7px;

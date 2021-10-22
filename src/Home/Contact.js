@@ -24,7 +24,7 @@ const Contact = () => {
                         <Adressp><span>Salong Arnalids</span> <br />Birkagatan 27 <br />St Eriksplan</Adressp>
                     </InfoDiv>
                     <InfoDiv onClick={sendEmail}>
-                        <MailIcon /><p>fridaby@gmail.com</p>
+                        <MailIcon /><p>fridabay@gmail.com</p>
                     </InfoDiv>
                     <InfoDiv onClick={makeCall}>
                         <PhoneIcon /><p>08- 33 50 80</p>

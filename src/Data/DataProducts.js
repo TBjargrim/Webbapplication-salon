@@ -2,13 +2,16 @@ import DP from '../Images/dpDerm.jpg'
 import Tebeskin from '../Images/Tebeskin.jpg'
 import Nannic from '../Images/Nannic.jpg'
 import IMAGE from '../Images/imagescincare.jpg'
+import Excuviance from '../Images/excuviance2.jpg'
+import IMGFreezePen from '../Images/freezepen1.jpg'
+
 export const DataProducts = [
-    // {
-    //     name: 'Exuviance',
-    //     description: '',
-    //     image: Excuviance,
-    //     id: 1
-    // },
+    {
+        name: 'Exuviance',
+        description: '',
+        image: Excuviance,
+        id: 1
+    },
     {
         name: 'DP Derm',
         description: '',
@@ -32,6 +35,12 @@ export const DataProducts = [
         description: '',
         image: IMAGE,
         id: 5
+    },
+    {
+        name: 'Freezepen',
+        description: '',
+        image: IMGFreezePen,
+        id: 6
     },
 
 ]

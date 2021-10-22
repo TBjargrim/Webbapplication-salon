@@ -19,7 +19,7 @@ export const DataTreatments = [
         detailedDescription: [
             {
                 name: 'Klassisk Ansiktsbehandling',
-                describe: 'En behandling som passar perfekt till alla hudtyper. Ansiktsbehandling inkl frans&bryn färg + plockning.  Inkluderar rengöring, hudanalys, AHA-peeling, ånga, porrengöring, och en härlig hårbottenmassage ,ansiktsmask. Avslutas med ögoncreme, serum och dagcreme.',
+                describe: 'Välj mellan 45, 60, 90 eller 120 min. 45 min, ger dig rengöring, analys, peeling, mask och avslutande krämer. 60 min, detsamma som 45 min men även porengöring/portöming. 90 min, får du även avnjuta en härlig massage och vid 120 min färgar och plockar vi dina fransar och bryn.',
             }, {
                 name: 'Ansiktsbehandling Lyx',
                 describe: 'Komplett klassisk ansiktsbehandling anpassad efter hudtyp. Vi använder Exuviance-produkter. Rekommenderas som förstagångsbehandling eller regelbundet varannan månad. Syrepensling, lätt brynplock, ånga, portömning, massage, ansiktsmask, serum, dag/nattkräm. Max 90 min.',
@@ -34,7 +34,7 @@ export const DataTreatments = [
         detailedDescription: [
             {
                 name: 'AHA-Behandling/Kemisk Peeling',
-                describe: 'AHA-behandlingar med fruktsyror från Exuviance lämpar sig för alla hudtyper, även de allra känsligaste – både dam och herr. AHA-behandlingarna föryngrar huden genom att öka fuktigheten. De reducerar även rynkor, sluter samman porer och reducerar talgproduktionen i huden. Behandlingen förnyar i viss mån hudcellerna. Du kan välja en behandling på 45 minuter, den innehåller avtvätt, AHA-syrebehandling,  serum, ansiktsmask samt dagkräm/nattkräm. Behandlingen lämpar sig som kur varannan vecka 10-15 gånger. Du kan även välja vår 90 minuter långa behandling. Då ingår avtvätt, AHA-syrebehandling, eventuellt ånga, kort brynplock, antingen lång portömning eller lång massage, serum, ansiktsmask samt dagkräm/nattkräm.'
+                describe: 'AHA-behandlingar med fruktsyror från Exuviance lämpar sig för alla hudtyper, även de allra känsligaste – både dam och herr. AHA-behandlingarna föryngrar huden genom att öka fuktigheten. De reducerar även rynkor, sluter samman porer och reducerar talgproduktionen i huden. Behandlingen förnyar i viss mån hudcellerna. Du kan välja en behandling på 45 minuter, den innehåller avtvätt, AHA-syrebehandling,  serum, ansiktsmask samt dagkräm/nattkräm. Behandlingen lämpar sig som kur varannan vecka 4-6 gånger. Du kan även välja vår 90 minuter långa behandling. Då ingår avtvätt, AHA-syrebehandling, eventuellt ånga, kort brynplock, antingen lång portömning eller lång massage, serum, ansiktsmask samt dagkräm/nattkräm.'
             }
 
         ]
@@ -81,7 +81,7 @@ describe: 'Behandlingen är en av de hetaste och nyaste behandlingarna på markn
     },
     {
         name: 'Vaxning',
-        desciption: 'Vi erbjuder vaxning av ansikte, ben samt arm.',
+        desciption: 'Vi erbjuder vaxning av ansikte, ben, akiller, axlar och rygg.',
         image: Wax,
         id: 5,
         detailedDescription: [
@@ -163,7 +163,7 @@ describe: 'Behandlingen är en av de hetaste och nyaste behandlingarna på markn
                 list: [
                     'Reducerar rynkor och fina linjer, ', 'Stimulerar hudens egen kollagenbildning, ', 'Skapar djup återfuktning och glow, ', 'Återskapar hudens fyllighet, ', 'Reducerar ärrbildning, ', 'Reducerar pigmentfläckar, ', 'Jämnar ut hudtonen', 'Ökar cellförnyelsen', 
                 ],
-                extra: 'Behandlingsområden: Ansitke, Hals, Dekolletage och händer.'
+                extra: 'Behandlingsområden: Ansikte, Hals, Dekolletage och händer.'
             }
         ]
     },

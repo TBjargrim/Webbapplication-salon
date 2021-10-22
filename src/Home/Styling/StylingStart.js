@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+
+import Flower from '../../Images/Flower.jpg'
+
 import { BsArrowDown } from "react-icons/bs";
 
 export const ContainerDiv = styled.div`
@@ -6,24 +9,26 @@ margin:auto;
 height:99vh;
 width:100%;
 overflow:hidden;
+background-image: url(${Flower});
+background-repeat: no-repeat;
 `
-export const VideoBackground =styled.div`
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-overflow: hidden;
-video{
-    width: 100%;
-height: 100%;
--o-object-fit: cover;
-object-fit: cover;
-background: #fff;
-}
-`
+// export const VideoBackground =styled.div`
+// position: absolute;
+// top: 0;
+// right: 0;
+// bottom: 0;
+// left: 0;
+// width: 100%;
+// height: 100%;
+// overflow: hidden;
+// video{
+//     width: 100%;
+// height: 100%;
+// -o-object-fit: cover;
+// object-fit: cover;
+// background: #fff;
+// }
+// `
 export const Header = styled.h1`
     font-family: Red Hat Text;
 font-weight: 300;
@@ -54,7 +59,7 @@ outline: 10px solid rgba(255,255,255,0.05);
 h5{
     margin:50px 80px 0 80px;
     color: #FFFFFF;
-font-weight:700;
+font-weight:200;
 letter-spacing:1px;
 font-size: 24px;
 text-align:center;
@@ -100,7 +105,6 @@ background:#FFFFFF;
     margin:0 50px 0 50px;
 }
 @media screen and (max-width:490px) {
-    top:15%;
     margin:5px;
 }
 `

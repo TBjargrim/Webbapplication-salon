@@ -7,9 +7,9 @@ const Start = () => {
 
     return (
         <ContainerDiv id="hem">
-<VideoBackground>
+{/* <VideoBackground>
             <video autoPlay loop muted src={BackgroundVideo} type='video/mp4' />
-</VideoBackground>
+</VideoBackground> */}
             <WrapperDiv>
                 <Header>FEEL GREAT BEAUTY</Header>
                 <h5>Välkommen till vår härliga Salong belägen i centrala Stockholm.<br/> <br />Vi erbjuder hudvård och resultatinriktade, avancerade behandlingar <br/>för kropp och ansikte. <br />  </h5>
